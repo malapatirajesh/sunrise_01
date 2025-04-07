@@ -1,0 +1,542 @@
+{
+    "isEnabled": false,
+    "columnOrders": 
+    [
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~RequestID",
+            "displayIndex": 0
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~KUNNR",
+            "displayIndex": 1
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~ADRNR",
+            "displayIndex": 2
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~ANRED",
+            "displayIndex": 3
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~AUFSD",
+            "displayIndex": 4
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~BAHNE",
+            "displayIndex": 5
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~BAHNS",
+            "displayIndex": 6
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~BBBNR",
+            "displayIndex": 7
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~BBSNR",
+            "displayIndex": 8
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~BEGRU",
+            "displayIndex": 9
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~BRSCH",
+            "displayIndex": 10
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~BUBKZ",
+            "displayIndex": 11
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~DATLT",
+            "displayIndex": 12
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~ERDAT",
+            "displayIndex": 13
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~ERNAM",
+            "displayIndex": 14
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~EXABL",
+            "displayIndex": 15
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~FAKSD",
+            "displayIndex": 16
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~FISKN",
+            "displayIndex": 17
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~KNAZK",
+            "displayIndex": 18
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~KNRZA",
+            "displayIndex": 19
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~KONZS",
+            "displayIndex": 20
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~KTOKD",
+            "displayIndex": 21
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~KUKLA",
+            "displayIndex": 22
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~LAND1",
+            "displayIndex": 23
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~LIFNR",
+            "displayIndex": 24
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~LIFSD",
+            "displayIndex": 25
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~LOCCO",
+            "displayIndex": 26
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~LOEVM",
+            "displayIndex": 27
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~NAME1",
+            "displayIndex": 28
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~NAME2",
+            "displayIndex": 29
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~NAME3",
+            "displayIndex": 30
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~NAME4",
+            "displayIndex": 31
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~NIELS",
+            "displayIndex": 32
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~ORT01",
+            "displayIndex": 33
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~ORT02",
+            "displayIndex": 34
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~PFACH",
+            "displayIndex": 35
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~PSTL2",
+            "displayIndex": 36
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~PSTLZ",
+            "displayIndex": 37
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~REGIO",
+            "displayIndex": 38
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~COUNC",
+            "displayIndex": 39
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~CITYC",
+            "displayIndex": 40
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~RPMKR",
+            "displayIndex": 41
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~SORTL",
+            "displayIndex": 42
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~SPERR",
+            "displayIndex": 43
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~SPRAS",
+            "displayIndex": 44
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~STCD1",
+            "displayIndex": 45
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~STCD2",
+            "displayIndex": 46
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~STKZA",
+            "displayIndex": 47
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~STKZU",
+            "displayIndex": 48
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~STRAS",
+            "displayIndex": 49
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~TELBX",
+            "displayIndex": 50
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~TELF1",
+            "displayIndex": 51
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~TELF2",
+            "displayIndex": 52
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~TELFX",
+            "displayIndex": 53
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~TELTX",
+            "displayIndex": 54
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~TELX1",
+            "displayIndex": 55
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~LZONE",
+            "displayIndex": 56
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~XCPDK",
+            "displayIndex": 57
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~XZEMP",
+            "displayIndex": 58
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~VBUND",
+            "displayIndex": 59
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~STCEG",
+            "displayIndex": 60
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~DEAR1",
+            "displayIndex": 61
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~DEAR2",
+            "displayIndex": 62
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~DEAR3",
+            "displayIndex": 63
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~DEAR4",
+            "displayIndex": 64
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~DEAR5",
+            "displayIndex": 65
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~DEAR6",
+            "displayIndex": 66
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~GFORM",
+            "displayIndex": 67
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~BRAN1",
+            "displayIndex": 68
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~BRAN2",
+            "displayIndex": 69
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~BRAN3",
+            "displayIndex": 70
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~BRAN4",
+            "displayIndex": 71
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~BRAN5",
+            "displayIndex": 72
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~EKONT",
+            "displayIndex": 73
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~UMSAT",
+            "displayIndex": 74
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~UMJAH",
+            "displayIndex": 75
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~UWAER",
+            "displayIndex": 76
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~JMZAH",
+            "displayIndex": 77
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~JMJAH",
+            "displayIndex": 78
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~KATR1",
+            "displayIndex": 79
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~KATR2",
+            "displayIndex": 80
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~KATR3",
+            "displayIndex": 81
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~KATR4",
+            "displayIndex": 82
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~KATR5",
+            "displayIndex": 83
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~KATR6",
+            "displayIndex": 84
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~KATR7",
+            "displayIndex": 85
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~KATR8",
+            "displayIndex": 86
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~KATR9",
+            "displayIndex": 87
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~KATR10",
+            "displayIndex": 88
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~STKZN",
+            "displayIndex": 89
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~UMSA1",
+            "displayIndex": 90
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~TXJCD",
+            "displayIndex": 91
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~MCOD1",
+            "displayIndex": 92
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~MCOD2",
+            "displayIndex": 93
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~MCOD3",
+            "displayIndex": 94
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~PERIV",
+            "displayIndex": 95
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~ABRVW",
+            "displayIndex": 96
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~INSPBYDEBI",
+            "displayIndex": 97
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~INSPATDEBI",
+            "displayIndex": 98
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~KTOCD",
+            "displayIndex": 99
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~PFORT",
+            "displayIndex": 100
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~WERKS",
+            "displayIndex": 101
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~DTAMS",
+            "displayIndex": 102
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~DTAWS",
+            "displayIndex": 103
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~DUEFL",
+            "displayIndex": 104
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~HZUOR",
+            "displayIndex": 105
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~SPERZ",
+            "displayIndex": 106
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~ETIKG",
+            "displayIndex": 107
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~CIVVE",
+            "displayIndex": 108
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~MILVE",
+            "displayIndex": 109
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~KDKG1",
+            "displayIndex": 110
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~KDKG2",
+            "displayIndex": 111
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~KDKG3",
+            "displayIndex": 112
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~KDKG4",
+            "displayIndex": 113
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~KDKG5",
+            "displayIndex": 114
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~XKNZA",
+            "displayIndex": 115
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~FITYP",
+            "displayIndex": 116
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~STCDT",
+            "displayIndex": 117
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~STCD3",
+            "displayIndex": 118
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~STCD4",
+            "displayIndex": 119
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~XICMS",
+            "displayIndex": 120
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~XXIPI",
+            "displayIndex": 121
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~XSUBT",
+            "displayIndex": 122
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~CFOPC",
+            "displayIndex": 123
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~TXLW1",
+            "displayIndex": 124
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~TXLW2",
+            "displayIndex": 125
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~CCC01",
+            "displayIndex": 126
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~CCC02",
+            "displayIndex": 127
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~CCC03",
+            "displayIndex": 128
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~CCC04",
+            "displayIndex": 129
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~CASSD",
+            "displayIndex": 130
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~KNURL",
+            "displayIndex": 131
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~ZZNOT_EXIST",
+            "displayIndex": 132
+        },
+        {
+            "resultColumnName": "0CUSTOMER_ATTR~ZZNAME1",
+            "displayIndex": 133
+        }
+    ]
+}

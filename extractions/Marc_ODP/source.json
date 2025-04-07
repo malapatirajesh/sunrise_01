@@ -1,0 +1,142 @@
+{
+    "name": "Z_VW_MARA$F",
+    "description": "MARA CDS View",
+    "guid": "76dc9526-30db-42fe-ac93-fa155c191441",
+    "hierarchy": "",
+    "semantics": "TransactionalDataOrFacts",
+    "context": "ABAP_CDS",
+    "supportsFull": true,
+    "supportsDelta": true,
+    "mode": "Full",
+    "transferDataOnDeltaInit": true,
+    "columns": 
+    [
+        {
+            "name": "TS_SEQUENCE_NUMBER",
+            "description": "[GENERATED] Sequence number of row in current extraction",
+            "abapType": "EightByteInteger",
+            "isPrimaryKey": true,
+            "generated": true,
+            "outputLength": 0,
+            "aggregateFunction": "None"
+        },
+        {
+            "name": "MATNR",
+            "description": "Material Number",
+            "abapType": "CharacterString",
+            "length": 40,
+            "isPrimaryKey": true,
+            "isSelected": true,
+            "selectionPermission": "All",
+            "outputLength": 40,
+            "aggregateFunction": "None"
+        },
+        {
+            "name": "ERSDA",
+            "description": "Created On",
+            "abapType": "Date",
+            "isPrimaryKey": true,
+            "isSelected": true,
+            "selectionPermission": "All",
+            "outputLength": 8,
+            "aggregateFunction": "None"
+        },
+        {
+            "name": "ERNAM",
+            "description": "Name of Person Responsible for Creating the Object",
+            "abapType": "CharacterString",
+            "length": 12,
+            "isSelected": true,
+            "selectionPermission": "All",
+            "outputLength": 12,
+            "aggregateFunction": "None"
+        },
+        {
+            "name": "LAEDA",
+            "description": "Date of Last Change",
+            "abapType": "Date",
+            "isSelected": true,
+            "selectionPermission": "All",
+            "outputLength": 8,
+            "aggregateFunction": "None"
+        },
+        {
+            "name": "AENAM",
+            "description": "Name of Person Who Changed Object",
+            "abapType": "CharacterString",
+            "length": 12,
+            "isSelected": true,
+            "selectionPermission": "All",
+            "outputLength": 12,
+            "aggregateFunction": "None"
+        },
+        {
+            "name": "BRGEW",
+            "description": "Gross weight",
+            "abapType": "PackedNumber",
+            "length": 17,
+            "decimalCount": 3,
+            "isSelected": true,
+            "selectionPermission": "Operators, BetweenNotBetween",
+            "outputLength": 19,
+            "aggregateFunction": "None"
+        },
+        {
+            "name": "MTART",
+            "description": "Material type",
+            "abapType": "CharacterString",
+            "length": 4,
+            "isSelected": true,
+            "selectionPermission": "All",
+            "outputLength": 4,
+            "aggregateFunction": "None"
+        },
+        {
+            "name": "MEINS",
+            "description": "Base Unit of Measure",
+            "abapType": "CharacterString",
+            "length": 3,
+            "isSelected": true,
+            "selectionPermission": "All",
+            "outputLength": 3,
+            "aggregateFunction": "None"
+        },
+        {
+            "name": "ZEINR",
+            "description": "Document number (without document management system)",
+            "abapType": "CharacterString",
+            "length": 22,
+            "isSelected": true,
+            "selectionPermission": "All",
+            "outputLength": 22,
+            "aggregateFunction": "None"
+        },
+        {
+            "name": "ODQ_CHANGEMODE",
+            "description": "Change Mode for a Data Record in the Delta",
+            "abapType": "CharacterString",
+            "length": 1,
+            "isDeltaColumn": true,
+            "outputLength": 1,
+            "aggregateFunction": "None"
+        },
+        {
+            "name": "ODQ_ENTITYCNTR",
+            "description": "Number of Data Units (Data Records for Example)",
+            "abapType": "PackedNumber",
+            "length": 19,
+            "isDeltaColumn": true,
+            "outputLength": 20,
+            "aggregateFunction": "None"
+        }
+    ],
+    "parameterSet": {
+    },
+    "additionalInfo": {
+        "DELTA_DETERMINING_FIELD": "LAEDA",
+        "TYPE_OF_GENERIC_DELTA": "DATE",
+        "DELTA_PERIOD_MINIMUM": "86400",
+        "EXTRACTION_METHOD": "TABLE_OR_VIEW",
+        "DIRECT_ACCESS": "2"
+    }
+}

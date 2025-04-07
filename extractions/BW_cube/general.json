@@ -1,0 +1,15 @@
+{
+    "created": {
+        "machine": "DESMOND",
+        "timestamp": "20250327T133103.245Z",
+        "user": "THEOBALD\\malapati"
+    },
+    "destination": "fabric",
+    "lastChange": {
+        "machine": "DESMOND",
+        "timestamp": "20250331T114954.980Z",
+        "user": "THEOBALD\\malapati"
+    },
+    "source": "BW2",
+    "type": "BWCube"
+}

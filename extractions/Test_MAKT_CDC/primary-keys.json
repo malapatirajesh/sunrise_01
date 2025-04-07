@@ -1,0 +1,9 @@
+{
+    "isSurrogateKeyEnabled": false,
+    "columns": 
+    [
+        "MAKT~MANDT",
+        "MAKT~MATNR",
+        "MAKT~SPRAS"
+    ]
+}

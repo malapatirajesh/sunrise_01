@@ -1,0 +1,46 @@
+{
+    "isEnabled": false,
+    "columnOrders": 
+    [
+        {
+            "resultColumnName": "Z_VW_MARA~MANDT",
+            "displayIndex": 0
+        },
+        {
+            "resultColumnName": "Z_VW_MARA~MATNR",
+            "displayIndex": 1
+        },
+        {
+            "resultColumnName": "Z_VW_MARA~ERSDA",
+            "displayIndex": 2
+        },
+        {
+            "resultColumnName": "Z_VW_MARA~ERNAM",
+            "displayIndex": 3
+        },
+        {
+            "resultColumnName": "Z_VW_MARA~LAEDA",
+            "displayIndex": 4
+        },
+        {
+            "resultColumnName": "Z_VW_MARA~AENAM",
+            "displayIndex": 5
+        },
+        {
+            "resultColumnName": "Z_VW_MARA~BRGEW",
+            "displayIndex": 6
+        },
+        {
+            "resultColumnName": "Z_VW_MARA~MTART",
+            "displayIndex": 7
+        },
+        {
+            "resultColumnName": "Z_VW_MARA~MEINS",
+            "displayIndex": 8
+        },
+        {
+            "resultColumnName": "Z_VW_MARA~ZEINR",
+            "displayIndex": 9
+        }
+    ]
+}

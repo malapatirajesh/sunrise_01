@@ -1,0 +1,118 @@
+{
+    "functionName": "/THEO/READ_TABLE",
+    "runInBackgroundJob": false,
+    "backgroundJobTimeout": 180,
+    "tables": 
+    [
+        {
+            "name": "Z_VW_MARA",
+            "description": "Generated Table for View",
+            "isView": true,
+            "fields": 
+            [
+                {
+                    "name": "MANDT",
+                    "description": "Client",
+                    "abapType": "CharacterString",
+                    "length": 3,
+                    "isPrimaryKey": true,
+                    "isSelected": true,
+                    "checkTable": "T000",
+                    "conversionExit": "",
+                    "isClientField": true
+                },
+                {
+                    "name": "MATNR",
+                    "description": "Material Number",
+                    "abapType": "CharacterString",
+                    "length": 40,
+                    "isPrimaryKey": true,
+                    "isSelected": true,
+                    "conversionExit": "MATN1",
+                    "isClientField": false
+                },
+                {
+                    "name": "ERSDA",
+                    "description": "Created On",
+                    "abapType": "Date",
+                    "isPrimaryKey": true,
+                    "isSelected": true,
+                    "conversionExit": "",
+                    "isClientField": false
+                },
+                {
+                    "name": "ERNAM",
+                    "description": "Name of Person Responsible for Creating the Object",
+                    "abapType": "CharacterString",
+                    "length": 12,
+                    "isSelected": true,
+                    "conversionExit": "",
+                    "isClientField": false
+                },
+                {
+                    "name": "LAEDA",
+                    "description": "Date of Last Change",
+                    "abapType": "Date",
+                    "isSelected": true,
+                    "conversionExit": "",
+                    "isClientField": false
+                },
+                {
+                    "name": "AENAM",
+                    "description": "Name of Person Who Changed Object",
+                    "abapType": "CharacterString",
+                    "length": 12,
+                    "isSelected": true,
+                    "conversionExit": "",
+                    "isClientField": false
+                },
+                {
+                    "name": "BRGEW",
+                    "description": "Gross weight",
+                    "abapType": "PackedNumber",
+                    "length": 13,
+                    "decimalCount": 3,
+                    "isSelected": true,
+                    "formattedLength": 17,
+                    "conversionExit": "",
+                    "referenceTable": "MARA",
+                    "referenceField": "GEWEI",
+                    "isClientField": false
+                },
+                {
+                    "name": "MTART",
+                    "description": "Material type",
+                    "abapType": "CharacterString",
+                    "length": 4,
+                    "isSelected": true,
+                    "checkTable": "T134",
+                    "conversionExit": "",
+                    "isClientField": false
+                },
+                {
+                    "name": "MEINS",
+                    "description": "Base Unit of Measure",
+                    "abapType": "CharacterString",
+                    "length": 3,
+                    "isSelected": true,
+                    "checkTable": "T006",
+                    "conversionExit": "CUNIT",
+                    "isClientField": false
+                },
+                {
+                    "name": "ZEINR",
+                    "description": "Document number (without document management system)",
+                    "abapType": "CharacterString",
+                    "length": 22,
+                    "isSelected": true,
+                    "conversionExit": "",
+                    "isClientField": false
+                }
+            ]
+        }
+    ],
+    "complexRuntimeParameters": {
+    },
+    "whereSequence": [
+    ]
+}

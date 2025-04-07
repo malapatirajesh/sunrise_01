@@ -1,0 +1,9 @@
+{
+    "isSurrogateKeyEnabled": false,
+    "columns": 
+    [
+        "Z_VW_MARA~MANDT",
+        "Z_VW_MARA~MATNR",
+        "Z_VW_MARA~ERSDA"
+    ]
+}

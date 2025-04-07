@@ -1,0 +1,10 @@
+{
+    "CollectUsageData": true,
+    "UploadUsageData": true,
+    "TransferSapObjects": true,
+    "UploadBaseUrl": "https://products.theobald-software.com/",
+    "CollectionPeriod": "1.00:00:00",
+    "CleanupPeriod": "60.00:00:00",
+    "CheckPeriod": "01:00:00",
+    "UnfinishedRunsCleanup": "3.00:00:00"
+}

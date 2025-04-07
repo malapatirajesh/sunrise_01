@@ -1,0 +1,15 @@
+{
+    "created": {
+        "machine": "DESMOND",
+        "timestamp": "20250402T130910.211Z",
+        "user": "THEOBALD\\malapati"
+    },
+    "destination": "http-csv",
+    "lastChange": {
+        "machine": "DESMOND",
+        "timestamp": "20250402T130950.679Z",
+        "user": "THEOBALD\\malapati"
+    },
+    "source": "EC5",
+    "type": "Table"
+}

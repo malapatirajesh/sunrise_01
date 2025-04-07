@@ -1,0 +1,1243 @@
+{
+    "mdxDefinition": {
+        "name": "$ZCUDELTA",
+        "packageSize": 20000,
+        "measures": 
+        [
+            {
+                "name": "[Measures].[0QUANTITY]",
+                "description": "Quantity",
+                "abapType": "FloatingPoint",
+                "isSelected": true,
+                "shortName": "0QUANTITY",
+                "caption": "Quantity",
+                "customDecimals": 3
+            },
+            {
+                "name": "[Measures].[0SALES]",
+                "description": "Sales for the Period",
+                "abapType": "FloatingPoint",
+                "isSelected": true,
+                "shortName": "0SALES",
+                "caption": "Sales for the Period",
+                "customDecimals": 2
+            },
+            {
+                "name": "[Measures].[ZINTKF]",
+                "description": "INT Keyfigure",
+                "abapType": "FourByteInteger",
+                "isSelected": true,
+                "shortName": "ZINTKF",
+                "caption": "INT Keyfigure",
+                "customDecimals": 0
+            }
+        ],
+        "dimensions": 
+        [
+            {
+                "name": "[0CUSTOMER]",
+                "description": "Customer",
+                "abapType": "CharacterString",
+                "length": 255,
+                "shortName": "0CUSTOMER",
+                "caption": "Customer",
+                "containsKeyFigures": false,
+                "properties": 
+                [
+                    {
+                        "name": "[20CUSTOMER]",
+                        "abapType": "CharacterString",
+                        "length": 10,
+                        "shortName": "[20CUSTOMER]",
+                        "caption": "Key"
+                    },
+                    {
+                        "name": "[50CUSTOMER]",
+                        "abapType": "CharacterString",
+                        "length": 40,
+                        "shortName": "[50CUSTOMER]",
+                        "caption": "Medium Name"
+                    },
+                    {
+                        "name": "[20ACCNT_GRP]",
+                        "description": "Account group (Key)",
+                        "abapType": "CharacterString",
+                        "length": 4,
+                        "shortName": "[20ACCNT_GRP]",
+                        "caption": "Account group (Key)"
+                    },
+                    {
+                        "name": "[50ACCNT_GRP]",
+                        "description": "Account group (Medium Name)",
+                        "abapType": "CharacterString",
+                        "length": 40,
+                        "shortName": "[50ACCNT_GRP]",
+                        "caption": "Account group (Medium Name)"
+                    },
+                    {
+                        "name": "[20ADDR_NUMBR]",
+                        "description": "Address (Key)",
+                        "abapType": "CharacterString",
+                        "length": 10,
+                        "shortName": "[20ADDR_NUMBR]",
+                        "caption": "Address (Key)"
+                    },
+                    {
+                        "name": "[20AF_CUSTDC]",
+                        "description": "No. Customer DC (Key)",
+                        "abapType": "CharacterString",
+                        "length": 10,
+                        "shortName": "[20AF_CUSTDC]",
+                        "caption": "No. Customer DC (Key)"
+                    },
+                    {
+                        "name": "[20AF_CUSTID]",
+                        "description": "Cust.ID Partner Sys. (Key)",
+                        "abapType": "CharacterString",
+                        "length": 10,
+                        "shortName": "[20AF_CUSTID]",
+                        "caption": "Cust.ID Partner Sys. (Key)"
+                    },
+                    {
+                        "name": "[20ALTITUDE]",
+                        "description": "Geographical Height (Key)",
+                        "abapType": "CharacterString",
+                        "length": 23,
+                        "shortName": "[20ALTITUDE]",
+                        "caption": "Geographical Height (Key)"
+                    },
+                    {
+                        "name": "[20APO_LOCNO]",
+                        "description": "APO Location (Key)",
+                        "abapType": "CharacterString",
+                        "length": 20,
+                        "shortName": "[20APO_LOCNO]",
+                        "caption": "APO Location (Key)"
+                    },
+                    {
+                        "name": "[50APO_LOCNO]",
+                        "description": "APO Location (Medium Name)",
+                        "abapType": "CharacterString",
+                        "length": 40,
+                        "shortName": "[50APO_LOCNO]",
+                        "caption": "APO Location (Medium Name)"
+                    },
+                    {
+                        "name": "[20BPARTNER]",
+                        "description": "Business Partner (Key)",
+                        "abapType": "CharacterString",
+                        "length": 10,
+                        "shortName": "[20BPARTNER]",
+                        "caption": "Business Partner (Key)"
+                    },
+                    {
+                        "name": "[10BPARTNER]",
+                        "description": "Business Partner (Name)",
+                        "abapType": "CharacterString",
+                        "length": 20,
+                        "shortName": "[10BPARTNER]",
+                        "caption": "Business Partner (Name)"
+                    },
+                    {
+                        "name": "[50BPARTNER]",
+                        "description": "Business Partner (Medium Name)",
+                        "abapType": "CharacterString",
+                        "length": 40,
+                        "shortName": "[50BPARTNER]",
+                        "caption": "Business Partner (Medium Name)"
+                    },
+                    {
+                        "name": "[40BPARTNER]",
+                        "description": "Business Partner (Long Name)",
+                        "abapType": "CharacterString",
+                        "length": 60,
+                        "shortName": "[40BPARTNER]",
+                        "caption": "Business Partner (Long Name)"
+                    },
+                    {
+                        "name": "[20CITY]",
+                        "description": "Location (Key)",
+                        "abapType": "CharacterString",
+                        "length": 35,
+                        "shortName": "[20CITY]",
+                        "caption": "Location (Key)"
+                    },
+                    {
+                        "name": "[20CITY_2]",
+                        "description": "BAS: City District (Key)",
+                        "abapType": "CharacterString",
+                        "length": 40,
+                        "shortName": "[20CITY_2]",
+                        "caption": "BAS: City District (Key)"
+                    },
+                    {
+                        "name": "[20COUNTRY]",
+                        "description": "Country (Key)",
+                        "abapType": "CharacterString",
+                        "length": 3,
+                        "shortName": "[20COUNTRY]",
+                        "caption": "Country (Key)"
+                    },
+                    {
+                        "name": "[10COUNTRY]",
+                        "description": "Country (Name)",
+                        "abapType": "CharacterString",
+                        "length": 20,
+                        "shortName": "[10COUNTRY]",
+                        "caption": "Country (Name)"
+                    },
+                    {
+                        "name": "[20CUST_CLASS]",
+                        "description": "Customer Classific. (Key)",
+                        "abapType": "CharacterString",
+                        "length": 2,
+                        "shortName": "[20CUST_CLASS]",
+                        "caption": "Customer Classific. (Key)"
+                    },
+                    {
+                        "name": "[10CUST_CLASS]",
+                        "description": "Customer Classific. (Name)",
+                        "abapType": "CharacterString",
+                        "length": 20,
+                        "shortName": "[10CUST_CLASS]",
+                        "caption": "Customer Classific. (Name)"
+                    },
+                    {
+                        "name": "[20CUST_MKT]",
+                        "description": "Customer Market (Key)",
+                        "abapType": "CharacterString",
+                        "length": 4,
+                        "shortName": "[20CUST_MKT]",
+                        "caption": "Customer Market (Key)"
+                    },
+                    {
+                        "name": "[20CUS_F_CONS]",
+                        "description": "Customer is Consumer (Key)",
+                        "abapType": "CharacterString",
+                        "length": 1,
+                        "shortName": "[20CUS_F_CONS]",
+                        "caption": "Customer is Consumer (Key)"
+                    },
+                    {
+                        "name": "[20DBDUNS_NUM]",
+                        "description": "D-U-N-S Number (Key)",
+                        "abapType": "CharacterString",
+                        "length": 9,
+                        "shortName": "[20DBDUNS_NUM]",
+                        "caption": "D-U-N-S Number (Key)"
+                    },
+                    {
+                        "name": "[40DBDUNS_NUM]",
+                        "description": "D-U-N-S Number (Long Name)",
+                        "abapType": "CharacterString",
+                        "length": 60,
+                        "shortName": "[40DBDUNS_NUM]",
+                        "caption": "D-U-N-S Number (Long Name)"
+                    },
+                    {
+                        "name": "[20DB_MATCH]",
+                        "description": "Match recommended (Key)",
+                        "abapType": "CharacterString",
+                        "length": 1,
+                        "shortName": "[20DB_MATCH]",
+                        "caption": "Match recommended (Key)"
+                    },
+                    {
+                        "name": "[20FAX_NUM]",
+                        "description": "Fax Number (Key)",
+                        "abapType": "CharacterString",
+                        "length": 31,
+                        "shortName": "[20FAX_NUM]",
+                        "caption": "Fax Number (Key)"
+                    },
+                    {
+                        "name": "[20FISCVARNT]",
+                        "description": "Fiscal Year Variant (Key)",
+                        "abapType": "CharacterString",
+                        "length": 2,
+                        "shortName": "[20FISCVARNT]",
+                        "caption": "Fiscal Year Variant (Key)"
+                    },
+                    {
+                        "name": "[50FISCVARNT]",
+                        "description": "Fiscal Year Variant (Medium Name)",
+                        "abapType": "CharacterString",
+                        "length": 40,
+                        "shortName": "[50FISCVARNT]",
+                        "caption": "Fiscal Year Variant (Medium Name)"
+                    },
+                    {
+                        "name": "[20ID_TXNUMB3]",
+                        "description": "Tax Number 3 (Key)",
+                        "abapType": "CharacterString",
+                        "length": 18,
+                        "shortName": "[20ID_TXNUMB3]",
+                        "caption": "Tax Number 3 (Key)"
+                    },
+                    {
+                        "name": "[20ID_XCPD]",
+                        "description": "One-Time Account (Key)",
+                        "abapType": "CharacterString",
+                        "length": 1,
+                        "shortName": "[20ID_XCPD]",
+                        "caption": "One-Time Account (Key)"
+                    },
+                    {
+                        "name": "[20INDUSTRY]",
+                        "description": "Industry (Key)",
+                        "abapType": "CharacterString",
+                        "length": 4,
+                        "shortName": "[20INDUSTRY]",
+                        "caption": "Industry (Key)"
+                    },
+                    {
+                        "name": "[10INDUSTRY]",
+                        "description": "Industry (Name)",
+                        "abapType": "CharacterString",
+                        "length": 20,
+                        "shortName": "[10INDUSTRY]",
+                        "caption": "Industry (Name)"
+                    },
+                    {
+                        "name": "[20IND_CODE_1]",
+                        "description": "Industry code 1 (Key)",
+                        "abapType": "CharacterString",
+                        "length": 10,
+                        "shortName": "[20IND_CODE_1]",
+                        "caption": "Industry code 1 (Key)"
+                    },
+                    {
+                        "name": "[10IND_CODE_1]",
+                        "description": "Industry code 1 (Name)",
+                        "abapType": "CharacterString",
+                        "length": 20,
+                        "shortName": "[10IND_CODE_1]",
+                        "caption": "Industry code 1 (Name)"
+                    },
+                    {
+                        "name": "[20IND_CODE_2]",
+                        "description": "Industry Code 2 (Key)",
+                        "abapType": "CharacterString",
+                        "length": 10,
+                        "shortName": "[20IND_CODE_2]",
+                        "caption": "Industry Code 2 (Key)"
+                    },
+                    {
+                        "name": "[10IND_CODE_2]",
+                        "description": "Industry Code 2 (Name)",
+                        "abapType": "CharacterString",
+                        "length": 20,
+                        "shortName": "[10IND_CODE_2]",
+                        "caption": "Industry Code 2 (Name)"
+                    },
+                    {
+                        "name": "[20IND_CODE_3]",
+                        "description": "Industry Code 3 (Key)",
+                        "abapType": "CharacterString",
+                        "length": 10,
+                        "shortName": "[20IND_CODE_3]",
+                        "caption": "Industry Code 3 (Key)"
+                    },
+                    {
+                        "name": "[10IND_CODE_3]",
+                        "description": "Industry Code 3 (Name)",
+                        "abapType": "CharacterString",
+                        "length": 20,
+                        "shortName": "[10IND_CODE_3]",
+                        "caption": "Industry Code 3 (Name)"
+                    },
+                    {
+                        "name": "[20IND_CODE_4]",
+                        "description": "Industry Code 4 (Key)",
+                        "abapType": "CharacterString",
+                        "length": 10,
+                        "shortName": "[20IND_CODE_4]",
+                        "caption": "Industry Code 4 (Key)"
+                    },
+                    {
+                        "name": "[10IND_CODE_4]",
+                        "description": "Industry Code 4 (Name)",
+                        "abapType": "CharacterString",
+                        "length": 20,
+                        "shortName": "[10IND_CODE_4]",
+                        "caption": "Industry Code 4 (Name)"
+                    },
+                    {
+                        "name": "[20IND_CODE_5]",
+                        "description": "Industry Code 5 (Key)",
+                        "abapType": "CharacterString",
+                        "length": 10,
+                        "shortName": "[20IND_CODE_5]",
+                        "caption": "Industry Code 5 (Key)"
+                    },
+                    {
+                        "name": "[10IND_CODE_5]",
+                        "description": "Industry Code 5 (Name)",
+                        "abapType": "CharacterString",
+                        "length": 20,
+                        "shortName": "[10IND_CODE_5]",
+                        "caption": "Industry Code 5 (Name)"
+                    },
+                    {
+                        "name": "[20KEYACCOUNT]",
+                        "description": "Key Account (Key)",
+                        "abapType": "CharacterString",
+                        "length": 1,
+                        "shortName": "[20KEYACCOUNT]",
+                        "caption": "Key Account (Key)"
+                    },
+                    {
+                        "name": "[20LANGU]",
+                        "description": "Language key (Key)",
+                        "abapType": "CharacterString",
+                        "length": 2,
+                        "shortName": "[20LANGU]",
+                        "caption": "Language key (Key)"
+                    },
+                    {
+                        "name": "[10LANGU]",
+                        "description": "Language key (Name)",
+                        "abapType": "CharacterString",
+                        "length": 20,
+                        "shortName": "[10LANGU]",
+                        "caption": "Language key (Name)"
+                    },
+                    {
+                        "name": "[20LATITUDE]",
+                        "description": "Latitude (Key)",
+                        "abapType": "CharacterString",
+                        "length": 17,
+                        "shortName": "[20LATITUDE]",
+                        "caption": "Latitude (Key)"
+                    },
+                    {
+                        "name": "[20LOGSYS]",
+                        "description": "Source System (Key)",
+                        "abapType": "CharacterString",
+                        "length": 10,
+                        "shortName": "[20LOGSYS]",
+                        "caption": "Source System (Key)"
+                    },
+                    {
+                        "name": "[50LOGSYS]",
+                        "description": "Source System (Medium Name)",
+                        "abapType": "CharacterString",
+                        "length": 40,
+                        "shortName": "[50LOGSYS]",
+                        "caption": "Source System (Medium Name)"
+                    },
+                    {
+                        "name": "[20LONGITUDE]",
+                        "description": "Longitude (Key)",
+                        "abapType": "CharacterString",
+                        "length": 17,
+                        "shortName": "[20LONGITUDE]",
+                        "caption": "Longitude (Key)"
+                    },
+                    {
+                        "name": "[20NAME]",
+                        "description": "Name (Key)",
+                        "abapType": "CharacterString",
+                        "length": 35,
+                        "shortName": "[20NAME]",
+                        "caption": "Name (Key)"
+                    },
+                    {
+                        "name": "[20NAME2]",
+                        "description": "Name 2 (Key)",
+                        "abapType": "CharacterString",
+                        "length": 35,
+                        "shortName": "[20NAME2]",
+                        "caption": "Name 2 (Key)"
+                    },
+                    {
+                        "name": "[20NAME3]",
+                        "description": "Name 3 (Key)",
+                        "abapType": "CharacterString",
+                        "length": 35,
+                        "shortName": "[20NAME3]",
+                        "caption": "Name 3 (Key)"
+                    },
+                    {
+                        "name": "[20NIELSEN_ID]",
+                        "description": "Nielsen Indicator (Key)",
+                        "abapType": "CharacterString",
+                        "length": 2,
+                        "shortName": "[20NIELSEN_ID]",
+                        "caption": "Nielsen Indicator (Key)"
+                    },
+                    {
+                        "name": "[10NIELSEN_ID]",
+                        "description": "Nielsen Indicator (Name)",
+                        "abapType": "CharacterString",
+                        "length": 20,
+                        "shortName": "[10NIELSEN_ID]",
+                        "caption": "Nielsen Indicator (Name)"
+                    },
+                    {
+                        "name": "[20OUTL_TYPE]",
+                        "description": "Branch Category (Key)",
+                        "abapType": "CharacterString",
+                        "length": 4,
+                        "shortName": "[20OUTL_TYPE]",
+                        "caption": "Branch Category (Key)"
+                    },
+                    {
+                        "name": "[20PCOMPANY]",
+                        "description": "Partner Company (Key)",
+                        "abapType": "CharacterString",
+                        "length": 6,
+                        "shortName": "[20PCOMPANY]",
+                        "caption": "Partner Company (Key)"
+                    },
+                    {
+                        "name": "[50PCOMPANY]",
+                        "description": "Partner Company (Medium Name)",
+                        "abapType": "CharacterString",
+                        "length": 40,
+                        "shortName": "[50PCOMPANY]",
+                        "caption": "Partner Company (Medium Name)"
+                    },
+                    {
+                        "name": "[20PHONE]",
+                        "description": "Telephone 1 (Key)",
+                        "abapType": "CharacterString",
+                        "length": 16,
+                        "shortName": "[20PHONE]",
+                        "caption": "Telephone 1 (Key)"
+                    },
+                    {
+                        "name": "[20PLANT]",
+                        "description": "Plant (Key)",
+                        "abapType": "CharacterString",
+                        "length": 4,
+                        "shortName": "[20PLANT]",
+                        "caption": "Plant (Key)"
+                    },
+                    {
+                        "name": "[10PLANT]",
+                        "description": "Plant (Name)",
+                        "abapType": "CharacterString",
+                        "length": 20,
+                        "shortName": "[10PLANT]",
+                        "caption": "Plant (Name)"
+                    },
+                    {
+                        "name": "[50PLANT]",
+                        "description": "Plant (Medium Name)",
+                        "abapType": "CharacterString",
+                        "length": 40,
+                        "shortName": "[50PLANT]",
+                        "caption": "Plant (Medium Name)"
+                    },
+                    {
+                        "name": "[20POBOX]",
+                        "description": "P.O. Box (Key)",
+                        "abapType": "CharacterString",
+                        "length": 10,
+                        "shortName": "[20POBOX]",
+                        "caption": "P.O. Box (Key)"
+                    },
+                    {
+                        "name": "[20POBOX_LOC]",
+                        "description": "BAS: PO Box Location (Key)",
+                        "abapType": "CharacterString",
+                        "length": 40,
+                        "shortName": "[20POBOX_LOC]",
+                        "caption": "BAS: PO Box Location (Key)"
+                    },
+                    {
+                        "name": "[20POSTAL_CD]",
+                        "description": "Postal Code (Key)",
+                        "abapType": "CharacterString",
+                        "length": 10,
+                        "shortName": "[20POSTAL_CD]",
+                        "caption": "Postal Code (Key)"
+                    },
+                    {
+                        "name": "[20POSTCD_BOX]",
+                        "description": "BAS:POBox PostalCode (Key)",
+                        "abapType": "CharacterString",
+                        "length": 14,
+                        "shortName": "[20POSTCD_BOX]",
+                        "caption": "BAS:POBox PostalCode (Key)"
+                    },
+                    {
+                        "name": "[20POSTCD_GIS]",
+                        "description": "BAS:PstCde(Geo-Rel.) (Key)",
+                        "abapType": "CharacterString",
+                        "length": 14,
+                        "shortName": "[20POSTCD_GIS]",
+                        "caption": "BAS:PstCde(Geo-Rel.) (Key)"
+                    },
+                    {
+                        "name": "[20PRECISID]",
+                        "description": "Geo-precision (Key)",
+                        "abapType": "CharacterString",
+                        "length": 4,
+                        "shortName": "[20PRECISID]",
+                        "caption": "Geo-precision (Key)"
+                    },
+                    {
+                        "name": "[10PRECISID]",
+                        "description": "Geo-precision (Name)",
+                        "abapType": "CharacterString",
+                        "length": 20,
+                        "shortName": "[10PRECISID]",
+                        "caption": "Geo-precision (Name)"
+                    },
+                    {
+                        "name": "[50PRECISID]",
+                        "description": "Geo-precision (Medium Name)",
+                        "abapType": "CharacterString",
+                        "length": 40,
+                        "shortName": "[50PRECISID]",
+                        "caption": "Geo-precision (Medium Name)"
+                    },
+                    {
+                        "name": "[40PRECISID]",
+                        "description": "Geo-precision (Long Name)",
+                        "abapType": "CharacterString",
+                        "length": 60,
+                        "shortName": "[40PRECISID]",
+                        "caption": "Geo-precision (Long Name)"
+                    },
+                    {
+                        "name": "[20REGION]",
+                        "description": "Region (Key)",
+                        "abapType": "CharacterString",
+                        "length": 7,
+                        "shortName": "[20REGION]",
+                        "caption": "Region (Key)"
+                    },
+                    {
+                        "name": "[10REGION]",
+                        "description": "Region (Name)",
+                        "abapType": "CharacterString",
+                        "length": 20,
+                        "shortName": "[10REGION]",
+                        "caption": "Region (Name)"
+                    },
+                    {
+                        "name": "[20SORTL]",
+                        "description": "Sort Field (Key)",
+                        "abapType": "CharacterString",
+                        "length": 10,
+                        "shortName": "[20SORTL]",
+                        "caption": "Sort Field (Key)"
+                    },
+                    {
+                        "name": "[20SRCID]",
+                        "description": "DatSrc.ID of GeoLoct (Key)",
+                        "abapType": "CharacterString",
+                        "length": 4,
+                        "shortName": "[20SRCID]",
+                        "caption": "DatSrc.ID of GeoLoct (Key)"
+                    },
+                    {
+                        "name": "[20STREET]",
+                        "description": "Street Name (Key)",
+                        "abapType": "CharacterString",
+                        "length": 35,
+                        "shortName": "[20STREET]",
+                        "caption": "Street Name (Key)"
+                    },
+                    {
+                        "name": "[20TAX_NUMB]",
+                        "description": "Tax Code 1 (Key)",
+                        "abapType": "CharacterString",
+                        "length": 16,
+                        "shortName": "[20TAX_NUMB]",
+                        "caption": "Tax Code 1 (Key)"
+                    },
+                    {
+                        "name": "[20TAX_NUMB2]",
+                        "description": "Tax Number 2 (Key)",
+                        "abapType": "CharacterString",
+                        "length": 11,
+                        "shortName": "[20TAX_NUMB2]",
+                        "caption": "Tax Number 2 (Key)"
+                    },
+                    {
+                        "name": "[20USAGE_IND]",
+                        "description": "Usage Indicator (Key)",
+                        "abapType": "CharacterString",
+                        "length": 3,
+                        "shortName": "[20USAGE_IND]",
+                        "caption": "Usage Indicator (Key)"
+                    },
+                    {
+                        "name": "[10USAGE_IND]",
+                        "description": "Usage Indicator (Name)",
+                        "abapType": "CharacterString",
+                        "length": 20,
+                        "shortName": "[10USAGE_IND]",
+                        "caption": "Usage Indicator (Name)"
+                    },
+                    {
+                        "name": "[20VENDOR]",
+                        "description": "Vendor (Key)",
+                        "abapType": "CharacterString",
+                        "length": 10,
+                        "shortName": "[20VENDOR]",
+                        "caption": "Vendor (Key)"
+                    },
+                    {
+                        "name": "[50VENDOR]",
+                        "description": "Vendor (Medium Name)",
+                        "abapType": "CharacterString",
+                        "length": 40,
+                        "shortName": "[50VENDOR]",
+                        "caption": "Vendor (Medium Name)"
+                    },
+                    {
+                        "name": "[20VISIT_RYT]",
+                        "description": "Call Frequency (Key)",
+                        "abapType": "CharacterString",
+                        "length": 4,
+                        "shortName": "[20VISIT_RYT]",
+                        "caption": "Call Frequency (Key)"
+                    }
+                ],
+                "hierarchies": 
+                [
+                    {
+                        "name": "0CUSTOMER",
+                        "caption": "Customer",
+                        "uniqueName": "[0CUSTOMER]",
+                        "uniqueId": "",
+                        "isSelected": false,
+                        "hierarchyLevels": 
+                        [
+                            {
+                                "name": "LEVEL00",
+                                "caption": "[0CUSTOMER].[LEVEL00]",
+                                "uniqueName": "Customer Level 00"
+                            },
+                            {
+                                "name": "LEVEL01",
+                                "caption": "[0CUSTOMER].[LEVEL01]",
+                                "uniqueName": "Customer Level 01"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "011                              99991231",
+                        "caption": "Customer class",
+                        "uniqueName": "[0CUSTOMER                     011]",
+                        "uniqueId": "MPWC7M5W33TLKC1U42TOT4DPW",
+                        "isSelected": false,
+                        "hierarchyLevels": 
+                        [
+                            {
+                                "name": "LEVEL00",
+                                "caption": "[0CUSTOMER                     011].[LEVEL00]",
+                                "uniqueName": "Level 01"
+                            },
+                            {
+                                "name": "LEVEL01",
+                                "caption": "[0CUSTOMER                     011].[LEVEL01]",
+                                "uniqueName": "Level 02"
+                            },
+                            {
+                                "name": "LEVEL02",
+                                "caption": "[0CUSTOMER                     011].[LEVEL02]",
+                                "uniqueName": "Level 03"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "COPY_OF_EXA_MAYA_                99991231",
+                        "caption": "COPY_EXA_MAYA_",
+                        "uniqueName": "[0CUSTOMER                     COPY_OF_EXA_MAYA_]",
+                        "uniqueId": "RNSLN6W5XC2W5AJTL2CGY0JPX",
+                        "isSelected": false,
+                        "hierarchyLevels": 
+                        [
+                            {
+                                "name": "LEVEL00",
+                                "caption": "[0CUSTOMER                     COPY_OF_EXA_MAYA_].[LEVEL00]",
+                                "uniqueName": "Level 01"
+                            },
+                            {
+                                "name": "LEVEL01",
+                                "caption": "[0CUSTOMER                     COPY_OF_EXA_MAYA_].[LEVEL01]",
+                                "uniqueName": "Level 02"
+                            },
+                            {
+                                "name": "LEVEL02",
+                                "caption": "[0CUSTOMER                     COPY_OF_EXA_MAYA_].[LEVEL02]",
+                                "uniqueName": "Level 03"
+                            },
+                            {
+                                "name": "LEVEL03",
+                                "caption": "[0CUSTOMER                     COPY_OF_EXA_MAYA_].[LEVEL03]",
+                                "uniqueName": "Level 04"
+                            },
+                            {
+                                "name": "LEVEL04",
+                                "caption": "[0CUSTOMER                     COPY_OF_EXA_MAYA_].[LEVEL04]",
+                                "uniqueName": "Level 05"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "EXA_MAYA_                        99991231",
+                        "caption": "EXA_MAYA_",
+                        "uniqueName": "[0CUSTOMER                     EXA_MAYA_]",
+                        "uniqueId": "JROZRONHAWPF98ZHH90DLM6XN",
+                        "isSelected": false,
+                        "hierarchyLevels": 
+                        [
+                            {
+                                "name": "LEVEL00",
+                                "caption": "[0CUSTOMER                     EXA_MAYA_].[LEVEL00]",
+                                "uniqueName": "Level 01"
+                            },
+                            {
+                                "name": "LEVEL01",
+                                "caption": "[0CUSTOMER                     EXA_MAYA_].[LEVEL01]",
+                                "uniqueName": "Level 02"
+                            },
+                            {
+                                "name": "LEVEL02",
+                                "caption": "[0CUSTOMER                     EXA_MAYA_].[LEVEL02]",
+                                "uniqueName": "Level 03"
+                            },
+                            {
+                                "name": "LEVEL03",
+                                "caption": "[0CUSTOMER                     EXA_MAYA_].[LEVEL03]",
+                                "uniqueName": "Level 04"
+                            },
+                            {
+                                "name": "LEVEL04",
+                                "caption": "[0CUSTOMER                     EXA_MAYA_].[LEVEL04]",
+                                "uniqueName": "Level 05"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "XU HIERARCHY                     99991231",
+                        "caption": "XU HIERARCHY",
+                        "uniqueName": "[0CUSTOMER                     XU HIERARCHY]",
+                        "uniqueId": "JP6T5RIIEJKFBHX0RFRZMUI5I",
+                        "isSelected": false,
+                        "hierarchyLevels": 
+                        [
+                            {
+                                "name": "LEVEL00",
+                                "caption": "[0CUSTOMER                     XU HIERARCHY].[LEVEL00]",
+                                "uniqueName": "Level 01"
+                            },
+                            {
+                                "name": "LEVEL01",
+                                "caption": "[0CUSTOMER                     XU HIERARCHY].[LEVEL01]",
+                                "uniqueName": "Level 02"
+                            },
+                            {
+                                "name": "LEVEL02",
+                                "caption": "[0CUSTOMER                     XU HIERARCHY].[LEVEL02]",
+                                "uniqueName": "Level 03"
+                            }
+                        ]
+                    }
+                ],
+                "defaultHierarchyName": "[0CUSTOMER]"
+            },
+            {
+                "name": "[0CALDAY]",
+                "description": "Calendar Day",
+                "abapType": "CharacterString",
+                "length": 255,
+                "shortName": "0CALDAY",
+                "caption": "Calendar Day",
+                "containsKeyFigures": false,
+                "properties": 
+                [
+                    {
+                        "name": "[20CALDAY]",
+                        "abapType": "CharacterString",
+                        "length": 10,
+                        "shortName": "[20CALDAY]",
+                        "caption": "Key"
+                    }
+                ],
+                "dimensionType": "Time",
+                "hierarchies": 
+                [
+                    {
+                        "name": "",
+                        "caption": "Calendar Day",
+                        "uniqueName": "[0CALDAY]",
+                        "uniqueId": "",
+                        "isSelected": false,
+                        "hierarchyLevels": 
+                        [
+                            {
+                                "name": "LEVEL00",
+                                "caption": "[0CALDAY].[LEVEL00]",
+                                "uniqueName": "Calendar Day Level 00"
+                            },
+                            {
+                                "name": "LEVEL01",
+                                "caption": "[0CALDAY].[LEVEL01]",
+                                "uniqueName": "Calendar Day Level 01"
+                            }
+                        ]
+                    }
+                ],
+                "defaultHierarchyName": "[0CALDAY]"
+            },
+            {
+                "name": "[0CALMONTH]",
+                "description": "Calendar Year/Month",
+                "abapType": "CharacterString",
+                "length": 255,
+                "shortName": "0CALMONTH",
+                "caption": "Calendar Year/Month",
+                "containsKeyFigures": false,
+                "properties": 
+                [
+                    {
+                        "name": "[20CALMONTH]",
+                        "abapType": "CharacterString",
+                        "length": 7,
+                        "shortName": "[20CALMONTH]",
+                        "caption": "Key"
+                    },
+                    {
+                        "name": "[50CALMONTH]",
+                        "abapType": "CharacterString",
+                        "length": 40,
+                        "shortName": "[50CALMONTH]",
+                        "caption": "Medium Name"
+                    },
+                    {
+                        "name": "[40CALMONTH]",
+                        "abapType": "CharacterString",
+                        "length": 60,
+                        "shortName": "[40CALMONTH]",
+                        "caption": "Long Name"
+                    },
+                    {
+                        "name": "[20CALMONTH2]",
+                        "description": "Calendar month (Key)",
+                        "abapType": "CharacterString",
+                        "length": 2,
+                        "shortName": "[20CALMONTH2]",
+                        "caption": "Calendar month (Key)"
+                    },
+                    {
+                        "name": "[50CALMONTH2]",
+                        "description": "Calendar month (Medium Name)",
+                        "abapType": "CharacterString",
+                        "length": 40,
+                        "shortName": "[50CALMONTH2]",
+                        "caption": "Calendar month (Medium Name)"
+                    },
+                    {
+                        "name": "[40CALMONTH2]",
+                        "description": "Calendar month (Long Name)",
+                        "abapType": "CharacterString",
+                        "length": 60,
+                        "shortName": "[40CALMONTH2]",
+                        "caption": "Calendar month (Long Name)"
+                    },
+                    {
+                        "name": "[20CALYEAR]",
+                        "description": "Calendar Year (Key)",
+                        "abapType": "CharacterString",
+                        "length": 4,
+                        "shortName": "[20CALYEAR]",
+                        "caption": "Calendar Year (Key)"
+                    },
+                    {
+                        "name": "[20DATEFROM]",
+                        "description": "Valid from (Key)",
+                        "abapType": "CharacterString",
+                        "length": 10,
+                        "shortName": "[20DATEFROM]",
+                        "caption": "Valid from (Key)"
+                    },
+                    {
+                        "name": "[20DATETO]",
+                        "description": "Valid to (Key)",
+                        "abapType": "CharacterString",
+                        "length": 10,
+                        "shortName": "[20DATETO]",
+                        "caption": "Valid to (Key)"
+                    },
+                    {
+                        "name": "[20NUMDAY]",
+                        "description": "Number of Days (Key)",
+                        "abapType": "CharacterString",
+                        "length": 11,
+                        "shortName": "[20NUMDAY]",
+                        "caption": "Number of Days (Key)"
+                    },
+                    {
+                        "name": "[20NUMWDAY]",
+                        "description": "Number of Workdays (Key)",
+                        "abapType": "CharacterString",
+                        "length": 11,
+                        "shortName": "[20NUMWDAY]",
+                        "caption": "Number of Workdays (Key)"
+                    }
+                ],
+                "dimensionType": "Time",
+                "hierarchies": 
+                [
+                    {
+                        "name": "0CALMONTH",
+                        "caption": "Calendar Year/Month",
+                        "uniqueName": "[0CALMONTH]",
+                        "uniqueId": "",
+                        "isSelected": false,
+                        "hierarchyLevels": 
+                        [
+                            {
+                                "name": "LEVEL00",
+                                "caption": "[0CALMONTH].[LEVEL00]",
+                                "uniqueName": "Calendar Year/Month Level 00"
+                            },
+                            {
+                                "name": "LEVEL01",
+                                "caption": "[0CALMONTH].[LEVEL01]",
+                                "uniqueName": "Calendar Year/Month Level 01"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "HIER_0CALMONTH                   99991231",
+                        "caption": "HIER_0CALMONTH",
+                        "uniqueName": "[0CALMONTH                     HIER_0CALMONTH]",
+                        "uniqueId": "O41LZDXHWNFUZTBDWXNJ11YV5",
+                        "isSelected": false,
+                        "hierarchyLevels": 
+                        [
+                            {
+                                "name": "LEVEL00",
+                                "caption": "[0CALMONTH                     HIER_0CALMONTH].[LEVEL00]",
+                                "uniqueName": "Level 01"
+                            },
+                            {
+                                "name": "LEVEL01",
+                                "caption": "[0CALMONTH                     HIER_0CALMONTH].[LEVEL01]",
+                                "uniqueName": "Level 02"
+                            },
+                            {
+                                "name": "LEVEL02",
+                                "caption": "[0CALMONTH                     HIER_0CALMONTH].[LEVEL02]",
+                                "uniqueName": "HIER_0CALMONTH Level 02"
+                            }
+                        ]
+                    }
+                ],
+                "defaultHierarchyName": "[0CALMONTH]"
+            },
+            {
+                "name": "[0CALYEAR]",
+                "description": "Calendar Year",
+                "abapType": "CharacterString",
+                "length": 255,
+                "shortName": "0CALYEAR",
+                "caption": "Calendar Year",
+                "containsKeyFigures": false,
+                "properties": 
+                [
+                    {
+                        "name": "[20CALYEAR]",
+                        "abapType": "CharacterString",
+                        "length": 4,
+                        "shortName": "[20CALYEAR]",
+                        "caption": "Key"
+                    },
+                    {
+                        "name": "[20DATEFROM]",
+                        "description": "Valid from (Key)",
+                        "abapType": "CharacterString",
+                        "length": 10,
+                        "shortName": "[20DATEFROM]",
+                        "caption": "Valid from (Key)"
+                    },
+                    {
+                        "name": "[20DATETO]",
+                        "description": "Valid to (Key)",
+                        "abapType": "CharacterString",
+                        "length": 10,
+                        "shortName": "[20DATETO]",
+                        "caption": "Valid to (Key)"
+                    },
+                    {
+                        "name": "[20NUMDAY]",
+                        "description": "Number of Days (Key)",
+                        "abapType": "CharacterString",
+                        "length": 11,
+                        "shortName": "[20NUMDAY]",
+                        "caption": "Number of Days (Key)"
+                    },
+                    {
+                        "name": "[20NUMWDAY]",
+                        "description": "Number of Workdays (Key)",
+                        "abapType": "CharacterString",
+                        "length": 11,
+                        "shortName": "[20NUMWDAY]",
+                        "caption": "Number of Workdays (Key)"
+                    }
+                ],
+                "dimensionType": "Time",
+                "hierarchies": 
+                [
+                    {
+                        "name": "",
+                        "caption": "Calendar Year",
+                        "uniqueName": "[0CALYEAR]",
+                        "uniqueId": "",
+                        "isSelected": false,
+                        "hierarchyLevels": 
+                        [
+                            {
+                                "name": "LEVEL00",
+                                "caption": "[0CALYEAR].[LEVEL00]",
+                                "uniqueName": "Calendar Year Level 00"
+                            },
+                            {
+                                "name": "LEVEL01",
+                                "caption": "[0CALYEAR].[LEVEL01]",
+                                "uniqueName": "Calendar Year Level 01"
+                            }
+                        ]
+                    }
+                ],
+                "defaultHierarchyName": "[0CALYEAR]"
+            },
+            {
+                "name": "[0CURRENCY]",
+                "description": "Currency",
+                "abapType": "CharacterString",
+                "length": 255,
+                "isSelected": true,
+                "shortName": "0CURRENCY",
+                "caption": "Currency",
+                "containsKeyFigures": false,
+                "properties": 
+                [
+                    {
+                        "name": "[20CURRENCY]",
+                        "abapType": "CharacterString",
+                        "length": 5,
+                        "shortName": "[20CURRENCY]",
+                        "caption": "Key"
+                    },
+                    {
+                        "name": "[10CURRENCY]",
+                        "abapType": "CharacterString",
+                        "length": 20,
+                        "shortName": "[10CURRENCY]",
+                        "caption": "Name"
+                    },
+                    {
+                        "name": "[50CURRENCY]",
+                        "abapType": "CharacterString",
+                        "length": 40,
+                        "shortName": "[50CURRENCY]",
+                        "caption": "Medium Name"
+                    }
+                ],
+                "hierarchies": 
+                [
+                    {
+                        "name": "",
+                        "caption": "Currency",
+                        "uniqueName": "[0CURRENCY]",
+                        "uniqueId": "",
+                        "isSelected": false,
+                        "hierarchyLevels": 
+                        [
+                            {
+                                "name": "LEVEL00",
+                                "caption": "[0CURRENCY].[LEVEL00]",
+                                "uniqueName": "Currency Level 00"
+                            },
+                            {
+                                "name": "LEVEL01",
+                                "caption": "[0CURRENCY].[LEVEL01]",
+                                "uniqueName": "Currency Level 01"
+                            }
+                        ]
+                    }
+                ],
+                "defaultHierarchyName": "[0CURRENCY]"
+            },
+            {
+                "name": "[0UNIT]",
+                "description": "Unit of Measure",
+                "abapType": "CharacterString",
+                "length": 255,
+                "shortName": "0UNIT",
+                "caption": "Unit of Measure",
+                "containsKeyFigures": false,
+                "properties": 
+                [
+                    {
+                        "name": "[20UNIT]",
+                        "abapType": "CharacterString",
+                        "length": 3,
+                        "shortName": "[20UNIT]",
+                        "caption": "Key"
+                    },
+                    {
+                        "name": "[10UNIT]",
+                        "abapType": "CharacterString",
+                        "length": 20,
+                        "shortName": "[10UNIT]",
+                        "caption": "Name"
+                    },
+                    {
+                        "name": "[50UNIT]",
+                        "abapType": "CharacterString",
+                        "length": 40,
+                        "shortName": "[50UNIT]",
+                        "caption": "Medium Name"
+                    }
+                ],
+                "hierarchies": 
+                [
+                    {
+                        "name": "",
+                        "caption": "Unit of Measure",
+                        "uniqueName": "[0UNIT]",
+                        "uniqueId": "",
+                        "isSelected": false,
+                        "hierarchyLevels": 
+                        [
+                            {
+                                "name": "LEVEL00",
+                                "caption": "[0UNIT].[LEVEL00]",
+                                "uniqueName": "Unit of Measure Level 00"
+                            },
+                            {
+                                "name": "LEVEL01",
+                                "caption": "[0UNIT].[LEVEL01]",
+                                "uniqueName": "Unit of Measure Level 01"
+                            }
+                        ]
+                    }
+                ],
+                "defaultHierarchyName": "[0UNIT]"
+            },
+            {
+                "name": "[MEASURES]",
+                "description": "Key Figures",
+                "abapType": "CharacterString",
+                "length": 255,
+                "shortName": "Measures",
+                "caption": "Key Figures",
+                "containsKeyFigures": true,
+                "dimensionType": "Measure",
+                "defaultHierarchyName": "[Measures]"
+            }
+        ],
+        "onlyStructures": false
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "name": "0MATERIAL_TEXT",
+    "description": "Material Number",
+    "guid": "4cc0001d-8efb-4364-90ed-a9826aedfd57",
+    "hierarchy": "",
+    "semantics": "Texts",
+    "context": "SAPI",
+    "supportsFull": true,
+    "supportsDelta": true,
+    "mode": "Full",
+    "transferDataOnDeltaInit": true,
+    "columns": 
+    [
+        {
+            "name": "TS_SEQUENCE_NUMBER",
+            "description": "[GENERATED] Sequence number of row in current extraction",
+            "abapType": "EightByteInteger",
+            "isPrimaryKey": true,
+            "generated": true,
+            "outputLength": 0,
+            "aggregateFunction": "None"
+        },
+        {
+            "name": "MATNR",
+            "description": "Material Number",
+            "abapType": "CharacterString",
+            "length": 18,
+            "isSelected": true,
+            "selectionPermission": "All",
+            "outputLength": 18,
+            "aggregateFunction": "None"
+        },
+        {
+            "name": "SPRAS",
+            "description": "Language Key",
+            "abapType": "CharacterString",
+            "length": 1,
+            "isSelected": true,
+            "selectionPermission": "Operators, BetweenNotBetween",
+            "outputLength": 1,
+            "aggregateFunction": "None"
+        },
+        {
+            "name": "TXTMD",
+            "description": "Material Description (Short Text)",
+            "abapType": "CharacterString",
+            "length": 40,
+            "isSelected": true,
+            "outputLength": 40,
+            "aggregateFunction": "None"
+        },
+        {
+            "name": "ODQ_CHANGEMODE",
+            "description": "Change Mode for a Data Record in the Delta",
+            "abapType": "CharacterString",
+            "length": 1,
+            "isDeltaColumn": true,
+            "outputLength": 1,
+            "aggregateFunction": "None"
+        },
+        {
+            "name": "ODQ_ENTITYCNTR",
+            "description": "Number of Data Units (Data Records for Example)",
+            "abapType": "PackedNumber",
+            "length": 19,
+            "isDeltaColumn": true,
+            "outputLength": 20,
+            "aggregateFunction": "None"
+        }
+    ],
+    "parameterSet": {
+    },
+    "additionalInfo": {
+        "RECORDMODE_FIELD": "",
+        "DELTA_DELAY": "UNKNOWN",
+        "DELTA_DETERMINING_FIELD": "UNKNOWN",
+        "TYPE_OF_GENERIC_DELTA": "UNKNOWN",
+        "EXTRACTION_METHOD": "FUNCTION_MODULE_COMPLEX",
+        "EXTRACTOR_NAME": "MDXT_MATERIAL_TEXT",
+        "DELTA_METHOD": "NEWE",
+        "DIRECT_ACCESS": "1",
+        "ZERO_DOWNTIME": "",
+        "STOCK_UPDATE": "",
+        "RECONCILIATION": "",
+        "INIT_SIMULATION": "",
+        "DOUBLE_RECORDS": "",
+        "ARCHIVING_METHOD": ""
+    }
+}

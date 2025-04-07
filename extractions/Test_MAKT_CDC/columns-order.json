@@ -1,0 +1,34 @@
+{
+    "isEnabled": false,
+    "columnOrders": 
+    [
+        {
+            "resultColumnName": "MAKT~MANDT",
+            "displayIndex": 0
+        },
+        {
+            "resultColumnName": "MAKT~MATNR",
+            "displayIndex": 1
+        },
+        {
+            "resultColumnName": "MAKT~SPRAS",
+            "displayIndex": 2
+        },
+        {
+            "resultColumnName": "MAKT~MAKTX",
+            "displayIndex": 3
+        },
+        {
+            "resultColumnName": "MAKT~MAKTG",
+            "displayIndex": 4
+        },
+        {
+            "resultColumnName": "ZTSCDC_XOFPS42S3~TS_TIMESTAMP",
+            "displayIndex": 5
+        },
+        {
+            "resultColumnName": "ZTSCDC_XOFPS42S3~TS_OPERATION",
+            "displayIndex": 6
+        }
+    ]
+}

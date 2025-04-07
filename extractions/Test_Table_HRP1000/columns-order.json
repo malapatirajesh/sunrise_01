@@ -1,0 +1,94 @@
+{
+    "isEnabled": false,
+    "columnOrders": 
+    [
+        {
+            "resultColumnName": "HRP1000~MANDT",
+            "displayIndex": 0
+        },
+        {
+            "resultColumnName": "HRP1000~PLVAR",
+            "displayIndex": 1
+        },
+        {
+            "resultColumnName": "HRP1000~OTYPE",
+            "displayIndex": 2
+        },
+        {
+            "resultColumnName": "HRP1000~OBJID",
+            "displayIndex": 3
+        },
+        {
+            "resultColumnName": "HRP1000~ISTAT",
+            "displayIndex": 4
+        },
+        {
+            "resultColumnName": "HRP1000~BEGDA",
+            "displayIndex": 5
+        },
+        {
+            "resultColumnName": "HRP1000~ENDDA",
+            "displayIndex": 6
+        },
+        {
+            "resultColumnName": "HRP1000~LANGU",
+            "displayIndex": 7
+        },
+        {
+            "resultColumnName": "HRP1000~SEQNR",
+            "displayIndex": 8
+        },
+        {
+            "resultColumnName": "HRP1000~OTJID",
+            "displayIndex": 9
+        },
+        {
+            "resultColumnName": "HRP1000~INFTY",
+            "displayIndex": 10
+        },
+        {
+            "resultColumnName": "HRP1000~AEDTM",
+            "displayIndex": 11
+        },
+        {
+            "resultColumnName": "HRP1000~UNAME",
+            "displayIndex": 12
+        },
+        {
+            "resultColumnName": "HRP1000~REASN",
+            "displayIndex": 13
+        },
+        {
+            "resultColumnName": "HRP1000~HISTO",
+            "displayIndex": 14
+        },
+        {
+            "resultColumnName": "HRP1000~ITXNR",
+            "displayIndex": 15
+        },
+        {
+            "resultColumnName": "HRP1000~SHORT",
+            "displayIndex": 16
+        },
+        {
+            "resultColumnName": "HRP1000~STEXT",
+            "displayIndex": 17
+        },
+        {
+            "resultColumnName": "HRP1000~GDATE",
+            "displayIndex": 18
+        },
+        {
+            "resultColumnName": "HRP1000~MC_SHORT",
+            "displayIndex": 19
+        },
+        {
+            "resultColumnName": "HRP1000~MC_STEXT",
+            "displayIndex": 20
+        },
+        {
+            "resultColumnName": "HRP1000~MC_SEARK",
+            "displayIndex": 21
+        }
+    ]
+}

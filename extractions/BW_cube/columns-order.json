@@ -1,0 +1,22 @@
+{
+    "isEnabled": false,
+    "columnOrders": 
+    [
+        {
+            "resultColumnName": "$ZCUDELTA~[0CURRENCY]",
+            "displayIndex": 0
+        },
+        {
+            "resultColumnName": "$ZCUDELTA~[Measures].[0QUANTITY]",
+            "displayIndex": 1
+        },
+        {
+            "resultColumnName": "$ZCUDELTA~[Measures].[0SALES]",
+            "displayIndex": 2
+        },
+        {
+            "resultColumnName": "$ZCUDELTA~[Measures].[ZINTKF]",
+            "displayIndex": 3
+        }
+    ]
+}

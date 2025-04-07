@@ -1,0 +1,902 @@
+{
+    "isEnabled": false,
+    "columnOrders": 
+    [
+        {
+            "resultColumnName": "MARA~MANDT",
+            "displayIndex": 0
+        },
+        {
+            "resultColumnName": "MARA~MATNR",
+            "displayIndex": 1
+        },
+        {
+            "resultColumnName": "MARA~ERSDA",
+            "displayIndex": 2
+        },
+        {
+            "resultColumnName": "MARA~ERNAM",
+            "displayIndex": 3
+        },
+        {
+            "resultColumnName": "MARA~LAEDA",
+            "displayIndex": 4
+        },
+        {
+            "resultColumnName": "MARA~AENAM",
+            "displayIndex": 5
+        },
+        {
+            "resultColumnName": "MARA~VPSTA",
+            "displayIndex": 6
+        },
+        {
+            "resultColumnName": "MARA~PSTAT",
+            "displayIndex": 7
+        },
+        {
+            "resultColumnName": "MARA~LVORM",
+            "displayIndex": 8
+        },
+        {
+            "resultColumnName": "MARA~MTART",
+            "displayIndex": 9
+        },
+        {
+            "resultColumnName": "MARA~MBRSH",
+            "displayIndex": 10
+        },
+        {
+            "resultColumnName": "MARA~MATKL",
+            "displayIndex": 11
+        },
+        {
+            "resultColumnName": "MARA~BISMT",
+            "displayIndex": 12
+        },
+        {
+            "resultColumnName": "MARA~MEINS",
+            "displayIndex": 13
+        },
+        {
+            "resultColumnName": "MARA~BSTME",
+            "displayIndex": 14
+        },
+        {
+            "resultColumnName": "MARA~ZEINR",
+            "displayIndex": 15
+        },
+        {
+            "resultColumnName": "MARA~ZEIAR",
+            "displayIndex": 16
+        },
+        {
+            "resultColumnName": "MARA~ZEIVR",
+            "displayIndex": 17
+        },
+        {
+            "resultColumnName": "MARA~ZEIFO",
+            "displayIndex": 18
+        },
+        {
+            "resultColumnName": "MARA~AESZN",
+            "displayIndex": 19
+        },
+        {
+            "resultColumnName": "MARA~BLATT",
+            "displayIndex": 20
+        },
+        {
+            "resultColumnName": "MARA~BLANZ",
+            "displayIndex": 21
+        },
+        {
+            "resultColumnName": "MARA~FERTH",
+            "displayIndex": 22
+        },
+        {
+            "resultColumnName": "MARA~FORMT",
+            "displayIndex": 23
+        },
+        {
+            "resultColumnName": "MARA~GROES",
+            "displayIndex": 24
+        },
+        {
+            "resultColumnName": "MARA~WRKST",
+            "displayIndex": 25
+        },
+        {
+            "resultColumnName": "MARA~NORMT",
+            "displayIndex": 26
+        },
+        {
+            "resultColumnName": "MARA~LABOR",
+            "displayIndex": 27
+        },
+        {
+            "resultColumnName": "MARA~EKWSL",
+            "displayIndex": 28
+        },
+        {
+            "resultColumnName": "MARA~BRGEW",
+            "displayIndex": 29
+        },
+        {
+            "resultColumnName": "MARA~NTGEW",
+            "displayIndex": 30
+        },
+        {
+            "resultColumnName": "MARA~GEWEI",
+            "displayIndex": 31
+        },
+        {
+            "resultColumnName": "MARA~VOLUM",
+            "displayIndex": 32
+        },
+        {
+            "resultColumnName": "MARA~VOLEH",
+            "displayIndex": 33
+        },
+        {
+            "resultColumnName": "MARA~BEHVO",
+            "displayIndex": 34
+        },
+        {
+            "resultColumnName": "MARA~RAUBE",
+            "displayIndex": 35
+        },
+        {
+            "resultColumnName": "MARA~TEMPB",
+            "displayIndex": 36
+        },
+        {
+            "resultColumnName": "MARA~DISST",
+            "displayIndex": 37
+        },
+        {
+            "resultColumnName": "MARA~TRAGR",
+            "displayIndex": 38
+        },
+        {
+            "resultColumnName": "MARA~STOFF",
+            "displayIndex": 39
+        },
+        {
+            "resultColumnName": "MARA~SPART",
+            "displayIndex": 40
+        },
+        {
+            "resultColumnName": "MARA~KUNNR",
+            "displayIndex": 41
+        },
+        {
+            "resultColumnName": "MARA~EANNR",
+            "displayIndex": 42
+        },
+        {
+            "resultColumnName": "MARA~WESCH",
+            "displayIndex": 43
+        },
+        {
+            "resultColumnName": "MARA~BWVOR",
+            "displayIndex": 44
+        },
+        {
+            "resultColumnName": "MARA~BWSCL",
+            "displayIndex": 45
+        },
+        {
+            "resultColumnName": "MARA~SAISO",
+            "displayIndex": 46
+        },
+        {
+            "resultColumnName": "MARA~ETIAR",
+            "displayIndex": 47
+        },
+        {
+            "resultColumnName": "MARA~ETIFO",
+            "displayIndex": 48
+        },
+        {
+            "resultColumnName": "MARA~ENTAR",
+            "displayIndex": 49
+        },
+        {
+            "resultColumnName": "MARA~EAN11",
+            "displayIndex": 50
+        },
+        {
+            "resultColumnName": "MARA~NUMTP",
+            "displayIndex": 51
+        },
+        {
+            "resultColumnName": "MARA~LAENG",
+            "displayIndex": 52
+        },
+        {
+            "resultColumnName": "MARA~BREIT",
+            "displayIndex": 53
+        },
+        {
+            "resultColumnName": "MARA~HOEHE",
+            "displayIndex": 54
+        },
+        {
+            "resultColumnName": "MARA~MEABM",
+            "displayIndex": 55
+        },
+        {
+            "resultColumnName": "MARA~PRDHA",
+            "displayIndex": 56
+        },
+        {
+            "resultColumnName": "MARA~AEKLK",
+            "displayIndex": 57
+        },
+        {
+            "resultColumnName": "MARA~CADKZ",
+            "displayIndex": 58
+        },
+        {
+            "resultColumnName": "MARA~QMPUR",
+            "displayIndex": 59
+        },
+        {
+            "resultColumnName": "MARA~ERGEW",
+            "displayIndex": 60
+        },
+        {
+            "resultColumnName": "MARA~ERGEI",
+            "displayIndex": 61
+        },
+        {
+            "resultColumnName": "MARA~ERVOL",
+            "displayIndex": 62
+        },
+        {
+            "resultColumnName": "MARA~ERVOE",
+            "displayIndex": 63
+        },
+        {
+            "resultColumnName": "MARA~GEWTO",
+            "displayIndex": 64
+        },
+        {
+            "resultColumnName": "MARA~VOLTO",
+            "displayIndex": 65
+        },
+        {
+            "resultColumnName": "MARA~VABME",
+            "displayIndex": 66
+        },
+        {
+            "resultColumnName": "MARA~KZREV",
+            "displayIndex": 67
+        },
+        {
+            "resultColumnName": "MARA~KZKFG",
+            "displayIndex": 68
+        },
+        {
+            "resultColumnName": "MARA~XCHPF",
+            "displayIndex": 69
+        },
+        {
+            "resultColumnName": "MARA~VHART",
+            "displayIndex": 70
+        },
+        {
+            "resultColumnName": "MARA~FUELG",
+            "displayIndex": 71
+        },
+        {
+            "resultColumnName": "MARA~STFAK",
+            "displayIndex": 72
+        },
+        {
+            "resultColumnName": "MARA~MAGRV",
+            "displayIndex": 73
+        },
+        {
+            "resultColumnName": "MARA~BEGRU",
+            "displayIndex": 74
+        },
+        {
+            "resultColumnName": "MARA~DATAB",
+            "displayIndex": 75
+        },
+        {
+            "resultColumnName": "MARA~LIQDT",
+            "displayIndex": 76
+        },
+        {
+            "resultColumnName": "MARA~SAISJ",
+            "displayIndex": 77
+        },
+        {
+            "resultColumnName": "MARA~PLGTP",
+            "displayIndex": 78
+        },
+        {
+            "resultColumnName": "MARA~MLGUT",
+            "displayIndex": 79
+        },
+        {
+            "resultColumnName": "MARA~EXTWG",
+            "displayIndex": 80
+        },
+        {
+            "resultColumnName": "MARA~SATNR",
+            "displayIndex": 81
+        },
+        {
+            "resultColumnName": "MARA~ATTYP",
+            "displayIndex": 82
+        },
+        {
+            "resultColumnName": "MARA~KZKUP",
+            "displayIndex": 83
+        },
+        {
+            "resultColumnName": "MARA~KZNFM",
+            "displayIndex": 84
+        },
+        {
+            "resultColumnName": "MARA~PMATA",
+            "displayIndex": 85
+        },
+        {
+            "resultColumnName": "MARA~MSTAE",
+            "displayIndex": 86
+        },
+        {
+            "resultColumnName": "MARA~MSTAV",
+            "displayIndex": 87
+        },
+        {
+            "resultColumnName": "MARA~MSTDE",
+            "displayIndex": 88
+        },
+        {
+            "resultColumnName": "MARA~MSTDV",
+            "displayIndex": 89
+        },
+        {
+            "resultColumnName": "MARA~TAKLV",
+            "displayIndex": 90
+        },
+        {
+            "resultColumnName": "MARA~RBNRM",
+            "displayIndex": 91
+        },
+        {
+            "resultColumnName": "MARA~MHDRZ",
+            "displayIndex": 92
+        },
+        {
+            "resultColumnName": "MARA~MHDHB",
+            "displayIndex": 93
+        },
+        {
+            "resultColumnName": "MARA~MHDLP",
+            "displayIndex": 94
+        },
+        {
+            "resultColumnName": "MARA~INHME",
+            "displayIndex": 95
+        },
+        {
+            "resultColumnName": "MARA~INHAL",
+            "displayIndex": 96
+        },
+        {
+            "resultColumnName": "MARA~VPREH",
+            "displayIndex": 97
+        },
+        {
+            "resultColumnName": "MARA~ETIAG",
+            "displayIndex": 98
+        },
+        {
+            "resultColumnName": "MARA~INHBR",
+            "displayIndex": 99
+        },
+        {
+            "resultColumnName": "MARA~CMETH",
+            "displayIndex": 100
+        },
+        {
+            "resultColumnName": "MARA~CUOBF",
+            "displayIndex": 101
+        },
+        {
+            "resultColumnName": "MARA~KZUMW",
+            "displayIndex": 102
+        },
+        {
+            "resultColumnName": "MARA~KOSCH",
+            "displayIndex": 103
+        },
+        {
+            "resultColumnName": "MARA~SPROF",
+            "displayIndex": 104
+        },
+        {
+            "resultColumnName": "MARA~NRFHG",
+            "displayIndex": 105
+        },
+        {
+            "resultColumnName": "MARA~MFRPN",
+            "displayIndex": 106
+        },
+        {
+            "resultColumnName": "MARA~MFRNR",
+            "displayIndex": 107
+        },
+        {
+            "resultColumnName": "MARA~BMATN",
+            "displayIndex": 108
+        },
+        {
+            "resultColumnName": "MARA~MPROF",
+            "displayIndex": 109
+        },
+        {
+            "resultColumnName": "MARA~KZWSM",
+            "displayIndex": 110
+        },
+        {
+            "resultColumnName": "MARA~SAITY",
+            "displayIndex": 111
+        },
+        {
+            "resultColumnName": "MARA~PROFL",
+            "displayIndex": 112
+        },
+        {
+            "resultColumnName": "MARA~IHIVI",
+            "displayIndex": 113
+        },
+        {
+            "resultColumnName": "MARA~ILOOS",
+            "displayIndex": 114
+        },
+        {
+            "resultColumnName": "MARA~SERLV",
+            "displayIndex": 115
+        },
+        {
+            "resultColumnName": "MARA~KZGVH",
+            "displayIndex": 116
+        },
+        {
+            "resultColumnName": "MARA~XGCHP",
+            "displayIndex": 117
+        },
+        {
+            "resultColumnName": "MARA~KZEFF",
+            "displayIndex": 118
+        },
+        {
+            "resultColumnName": "MARA~COMPL",
+            "displayIndex": 119
+        },
+        {
+            "resultColumnName": "MARA~IPRKZ",
+            "displayIndex": 120
+        },
+        {
+            "resultColumnName": "MARA~RDMHD",
+            "displayIndex": 121
+        },
+        {
+            "resultColumnName": "MARA~PRZUS",
+            "displayIndex": 122
+        },
+        {
+            "resultColumnName": "MARA~MTPOS_MARA",
+            "displayIndex": 123
+        },
+        {
+            "resultColumnName": "MARA~BFLME",
+            "displayIndex": 124
+        },
+        {
+            "resultColumnName": "MARA~MATFI",
+            "displayIndex": 125
+        },
+        {
+            "resultColumnName": "MARA~CMREL",
+            "displayIndex": 126
+        },
+        {
+            "resultColumnName": "MARA~BBTYP",
+            "displayIndex": 127
+        },
+        {
+            "resultColumnName": "MARA~SLED_BBD",
+            "displayIndex": 128
+        },
+        {
+            "resultColumnName": "MARA~GTIN_VARIANT",
+            "displayIndex": 129
+        },
+        {
+            "resultColumnName": "MARA~GENNR",
+            "displayIndex": 130
+        },
+        {
+            "resultColumnName": "MARA~RMATP",
+            "displayIndex": 131
+        },
+        {
+            "resultColumnName": "MARA~GDS_RELEVANT",
+            "displayIndex": 132
+        },
+        {
+            "resultColumnName": "MARA~WEORA",
+            "displayIndex": 133
+        },
+        {
+            "resultColumnName": "MARA~HUTYP_DFLT",
+            "displayIndex": 134
+        },
+        {
+            "resultColumnName": "MARA~PILFERABLE",
+            "displayIndex": 135
+        },
+        {
+            "resultColumnName": "MARA~WHSTC",
+            "displayIndex": 136
+        },
+        {
+            "resultColumnName": "MARA~WHMATGR",
+            "displayIndex": 137
+        },
+        {
+            "resultColumnName": "MARA~HNDLCODE",
+            "displayIndex": 138
+        },
+        {
+            "resultColumnName": "MARA~HAZMAT",
+            "displayIndex": 139
+        },
+        {
+            "resultColumnName": "MARA~HUTYP",
+            "displayIndex": 140
+        },
+        {
+            "resultColumnName": "MARA~TARE_VAR",
+            "displayIndex": 141
+        },
+        {
+            "resultColumnName": "MARA~MAXC",
+            "displayIndex": 142
+        },
+        {
+            "resultColumnName": "MARA~MAXC_TOL",
+            "displayIndex": 143
+        },
+        {
+            "resultColumnName": "MARA~MAXL",
+            "displayIndex": 144
+        },
+        {
+            "resultColumnName": "MARA~MAXB",
+            "displayIndex": 145
+        },
+        {
+            "resultColumnName": "MARA~MAXH",
+            "displayIndex": 146
+        },
+        {
+            "resultColumnName": "MARA~MAXDIM_UOM",
+            "displayIndex": 147
+        },
+        {
+            "resultColumnName": "MARA~HERKL",
+            "displayIndex": 148
+        },
+        {
+            "resultColumnName": "MARA~MFRGR",
+            "displayIndex": 149
+        },
+        {
+            "resultColumnName": "MARA~QQTIME",
+            "displayIndex": 150
+        },
+        {
+            "resultColumnName": "MARA~QQTIMEUOM",
+            "displayIndex": 151
+        },
+        {
+            "resultColumnName": "MARA~QGRP",
+            "displayIndex": 152
+        },
+        {
+            "resultColumnName": "MARA~SERIAL",
+            "displayIndex": 153
+        },
+        {
+            "resultColumnName": "MARA~PS_SMARTFORM",
+            "displayIndex": 154
+        },
+        {
+            "resultColumnName": "MARA~LOGUNIT",
+            "displayIndex": 155
+        },
+        {
+            "resultColumnName": "MARA~CWQREL",
+            "displayIndex": 156
+        },
+        {
+            "resultColumnName": "MARA~CWQPROC",
+            "displayIndex": 157
+        },
+        {
+            "resultColumnName": "MARA~CWQTOLGR",
+            "displayIndex": 158
+        },
+        {
+            "resultColumnName": "MARA~ADPROF",
+            "displayIndex": 159
+        },
+        {
+            "resultColumnName": "MARA~IPMIPPRODUCT",
+            "displayIndex": 160
+        },
+        {
+            "resultColumnName": "MARA~ALLOW_PMAT_IGNO",
+            "displayIndex": 161
+        },
+        {
+            "resultColumnName": "MARA~MEDIUM",
+            "displayIndex": 162
+        },
+        {
+            "resultColumnName": "MARA~COMMODITY",
+            "displayIndex": 163
+        },
+        {
+            "resultColumnName": "MARA~ANIMAL_ORIGIN",
+            "displayIndex": 164
+        },
+        {
+            "resultColumnName": "MARA~TEXTILE_COMP_IND",
+            "displayIndex": 165
+        },
+        {
+            "resultColumnName": "MARA~ANP",
+            "displayIndex": 166
+        },
+        {
+            "resultColumnName": "MARA~/BEV1/LULEINH",
+            "displayIndex": 167
+        },
+        {
+            "resultColumnName": "MARA~/BEV1/LULDEGRP",
+            "displayIndex": 168
+        },
+        {
+            "resultColumnName": "MARA~/BEV1/NESTRUCCAT",
+            "displayIndex": 169
+        },
+        {
+            "resultColumnName": "MARA~/DSD/SL_TOLTYP",
+            "displayIndex": 170
+        },
+        {
+            "resultColumnName": "MARA~/DSD/SV_CNT_GRP",
+            "displayIndex": 171
+        },
+        {
+            "resultColumnName": "MARA~/DSD/VC_GROUP",
+            "displayIndex": 172
+        },
+        {
+            "resultColumnName": "MARA~/VSO/R_TILT_IND",
+            "displayIndex": 173
+        },
+        {
+            "resultColumnName": "MARA~/VSO/R_STACK_IND",
+            "displayIndex": 174
+        },
+        {
+            "resultColumnName": "MARA~/VSO/R_BOT_IND",
+            "displayIndex": 175
+        },
+        {
+            "resultColumnName": "MARA~/VSO/R_TOP_IND",
+            "displayIndex": 176
+        },
+        {
+            "resultColumnName": "MARA~/VSO/R_STACK_NO",
+            "displayIndex": 177
+        },
+        {
+            "resultColumnName": "MARA~/VSO/R_PAL_IND",
+            "displayIndex": 178
+        },
+        {
+            "resultColumnName": "MARA~/VSO/R_PAL_OVR_D",
+            "displayIndex": 179
+        },
+        {
+            "resultColumnName": "MARA~/VSO/R_PAL_OVR_W",
+            "displayIndex": 180
+        },
+        {
+            "resultColumnName": "MARA~/VSO/R_PAL_B_HT",
+            "displayIndex": 181
+        },
+        {
+            "resultColumnName": "MARA~/VSO/R_PAL_MIN_H",
+            "displayIndex": 182
+        },
+        {
+            "resultColumnName": "MARA~/VSO/R_TOL_B_HT",
+            "displayIndex": 183
+        },
+        {
+            "resultColumnName": "MARA~/VSO/R_NO_P_GVH",
+            "displayIndex": 184
+        },
+        {
+            "resultColumnName": "MARA~/VSO/R_QUAN_UNIT",
+            "displayIndex": 185
+        },
+        {
+            "resultColumnName": "MARA~/VSO/R_KZGVH_IND",
+            "displayIndex": 186
+        },
+        {
+            "resultColumnName": "MARA~PACKCODE",
+            "displayIndex": 187
+        },
+        {
+            "resultColumnName": "MARA~DG_PACK_STATUS",
+            "displayIndex": 188
+        },
+        {
+            "resultColumnName": "MARA~MCOND",
+            "displayIndex": 189
+        },
+        {
+            "resultColumnName": "MARA~RETDELC",
+            "displayIndex": 190
+        },
+        {
+            "resultColumnName": "MARA~LOGLEV_RETO",
+            "displayIndex": 191
+        },
+        {
+            "resultColumnName": "MARA~NSNID",
+            "displayIndex": 192
+        },
+        {
+            "resultColumnName": "MARA~ADSPC_SPC",
+            "displayIndex": 193
+        },
+        {
+            "resultColumnName": "MARA~IMATN",
+            "displayIndex": 194
+        },
+        {
+            "resultColumnName": "MARA~PICNUM",
+            "displayIndex": 195
+        },
+        {
+            "resultColumnName": "MARA~BSTAT",
+            "displayIndex": 196
+        },
+        {
+            "resultColumnName": "MARA~COLOR_ATINN",
+            "displayIndex": 197
+        },
+        {
+            "resultColumnName": "MARA~SIZE1_ATINN",
+            "displayIndex": 198
+        },
+        {
+            "resultColumnName": "MARA~SIZE2_ATINN",
+            "displayIndex": 199
+        },
+        {
+            "resultColumnName": "MARA~COLOR",
+            "displayIndex": 200
+        },
+        {
+            "resultColumnName": "MARA~SIZE1",
+            "displayIndex": 201
+        },
+        {
+            "resultColumnName": "MARA~SIZE2",
+            "displayIndex": 202
+        },
+        {
+            "resultColumnName": "MARA~FREE_CHAR",
+            "displayIndex": 203
+        },
+        {
+            "resultColumnName": "MARA~CARE_CODE",
+            "displayIndex": 204
+        },
+        {
+            "resultColumnName": "MARA~BRAND_ID",
+            "displayIndex": 205
+        },
+        {
+            "resultColumnName": "MARA~FIBER_CODE1",
+            "displayIndex": 206
+        },
+        {
+            "resultColumnName": "MARA~FIBER_PART1",
+            "displayIndex": 207
+        },
+        {
+            "resultColumnName": "MARA~FIBER_CODE2",
+            "displayIndex": 208
+        },
+        {
+            "resultColumnName": "MARA~FIBER_PART2",
+            "displayIndex": 209
+        },
+        {
+            "resultColumnName": "MARA~FIBER_CODE3",
+            "displayIndex": 210
+        },
+        {
+            "resultColumnName": "MARA~FIBER_PART3",
+            "displayIndex": 211
+        },
+        {
+            "resultColumnName": "MARA~FIBER_CODE4",
+            "displayIndex": 212
+        },
+        {
+            "resultColumnName": "MARA~FIBER_PART4",
+            "displayIndex": 213
+        },
+        {
+            "resultColumnName": "MARA~FIBER_CODE5",
+            "displayIndex": 214
+        },
+        {
+            "resultColumnName": "MARA~FIBER_PART5",
+            "displayIndex": 215
+        },
+        {
+            "resultColumnName": "MARA~FASHGRD",
+            "displayIndex": 216
+        },
+        {
+            "resultColumnName": "MARA~COBJID",
+            "displayIndex": 217
+        },
+        {
+            "resultColumnName": "MARA~COTYPE",
+            "displayIndex": 218
+        },
+        {
+            "resultColumnName": "MARA~OIGROUPNAM",
+            "displayIndex": 219
+        },
+        {
+            "resultColumnName": "MARA~OITRIND",
+            "displayIndex": 220
+        },
+        {
+            "resultColumnName": "MARA~OIHMTXGR",
+            "displayIndex": 221
+        },
+        {
+            "resultColumnName": "ZTSCDC_0IQFT69FJ~TS_TIMESTAMP",
+            "displayIndex": 222
+        },
+        {
+            "resultColumnName": "ZTSCDC_0IQFT69FJ~TS_OPERATION",
+            "displayIndex": 223
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "",
+    "description": "",
+    "guid": "0f8bd04d-7679-4c66-a639-41f0c55e93cc",
+    "hierarchy": "",
+    "semantics": "None",
+    "context": "",
+    "supportsFull": false,
+    "supportsDelta": false,
+    "mode": "0",
+    "transferDataOnDeltaInit": false,
+    "parameterSet": {
+    },
+    "additionalInfo": {
+    }
+}

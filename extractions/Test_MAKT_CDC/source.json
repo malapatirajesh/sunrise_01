@@ -1,0 +1,132 @@
+{
+    "sourceTable": {
+        "name": "MAKT",
+        "isView": false,
+        "fields": 
+        [
+            {
+                "name": "MANDT",
+                "description": "Client",
+                "abapType": "CharacterString",
+                "length": 3,
+                "isPrimaryKey": true,
+                "isSelected": true,
+                "checkTable": "T000",
+                "indexed": "Ascending",
+                "conversionExit": "",
+                "isClientField": true
+            },
+            {
+                "name": "MATNR",
+                "description": "Material Number",
+                "abapType": "CharacterString",
+                "length": 18,
+                "isPrimaryKey": true,
+                "isSelected": true,
+                "checkTable": "MARA",
+                "conversionExit": "MATN1",
+                "isClientField": false
+            },
+            {
+                "name": "SPRAS",
+                "description": "Language Key",
+                "abapType": "CharacterString",
+                "length": 1,
+                "isPrimaryKey": true,
+                "isSelected": true,
+                "formattedLength": 2,
+                "checkTable": "T002",
+                "indexed": "Ascending",
+                "conversionExit": "ISOLA",
+                "isClientField": false
+            },
+            {
+                "name": "MAKTX",
+                "description": "Material Description (Short Text)",
+                "abapType": "CharacterString",
+                "length": 40,
+                "isSelected": true,
+                "conversionExit": "",
+                "isClientField": false
+            },
+            {
+                "name": "MAKTG",
+                "description": "Material description in upper case for matchcodes",
+                "abapType": "CharacterString",
+                "length": 40,
+                "isSelected": true,
+                "indexed": "Ascending",
+                "conversionExit": "",
+                "isClientField": false
+            }
+        ]
+    },
+    "logTable": {
+        "name": "ZTSCDC_XOFPS42S3",
+        "description": "Log table for CDC of table MAKT",
+        "isView": false,
+        "fields": 
+        [
+            {
+                "name": "MANDT",
+                "description": "Client",
+                "abapType": "CharacterString",
+                "length": 3,
+                "isPrimaryKey": true,
+                "isSelected": true,
+                "checkTable": "T000",
+                "indexed": "Ascending",
+                "conversionExit": "",
+                "isClientField": true
+            },
+            {
+                "name": "TS_SEQUENCE",
+                "abapType": "PackedNumber",
+                "length": 15,
+                "isPrimaryKey": true,
+                "isSelected": true,
+                "isClientField": false
+            },
+            {
+                "name": "TS_TIMESTAMP",
+                "abapType": "CharacterString",
+                "length": 26,
+                "isSelected": true,
+                "isClientField": false
+            },
+            {
+                "name": "MATNR",
+                "description": "Material Number",
+                "abapType": "CharacterString",
+                "length": 18,
+                "isPrimaryKey": true,
+                "isSelected": true,
+                "isClientField": false
+            },
+            {
+                "name": "SPRAS",
+                "description": "Language Key",
+                "abapType": "CharacterString",
+                "length": 1,
+                "isPrimaryKey": true,
+                "isSelected": true,
+                "formattedLength": 2,
+                "isClientField": false
+            },
+            {
+                "name": "TS_OPERATION",
+                "abapType": "CharacterString",
+                "length": 1,
+                "isSelected": true,
+                "isClientField": false
+            }
+        ],
+        "rowLimit": 0,
+        "sourceTableName": "MAKT"
+    },
+    "whereBlocks": [
+    ],
+    "sapDatabase": "SqlServer",
+    "extractTableOnFirstExtraction": false,
+    "backgroundJobTimeout": 180
+}

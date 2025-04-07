@@ -1,0 +1,240 @@
+{
+    "functionName": "/THEO/READ_TABLE",
+    "runInBackgroundJob": false,
+    "backgroundJobTimeout": 180,
+    "tables": 
+    [
+        {
+            "name": "HRP1000",
+            "description": "Infotype 1000 DB Table",
+            "isView": false,
+            "fields": 
+            [
+                {
+                    "name": "MANDT",
+                    "description": "Client",
+                    "abapType": "CharacterString",
+                    "length": 3,
+                    "isPrimaryKey": true,
+                    "isSelected": true,
+                    "checkTable": "T000",
+                    "indexed": "Ascending",
+                    "conversionExit": "",
+                    "isClientField": true
+                },
+                {
+                    "name": "PLVAR",
+                    "description": "Plan Version",
+                    "abapType": "CharacterString",
+                    "length": 2,
+                    "isPrimaryKey": true,
+                    "isSelected": true,
+                    "checkTable": "T778P",
+                    "indexed": "Ascending",
+                    "conversionExit": "",
+                    "isClientField": false
+                },
+                {
+                    "name": "OTYPE",
+                    "description": "Object Type",
+                    "abapType": "CharacterString",
+                    "length": 2,
+                    "isPrimaryKey": true,
+                    "isSelected": true,
+                    "checkTable": "T778O",
+                    "indexed": "Ascending",
+                    "conversionExit": "",
+                    "isClientField": false
+                },
+                {
+                    "name": "OBJID",
+                    "description": "Object ID",
+                    "abapType": "NumericCharacterString",
+                    "length": 8,
+                    "isPrimaryKey": true,
+                    "isSelected": true,
+                    "checkTable": "PLOGI",
+                    "conversionExit": "",
+                    "isClientField": false
+                },
+                {
+                    "name": "ISTAT",
+                    "description": "Planning Status",
+                    "abapType": "CharacterString",
+                    "length": 1,
+                    "isPrimaryKey": true,
+                    "isSelected": true,
+                    "checkTable": "T778S",
+                    "conversionExit": "",
+                    "isClientField": false
+                },
+                {
+                    "name": "BEGDA",
+                    "description": "Start Date",
+                    "abapType": "Date",
+                    "isPrimaryKey": true,
+                    "isSelected": true,
+                    "conversionExit": "",
+                    "isClientField": false
+                },
+                {
+                    "name": "ENDDA",
+                    "description": "End Date",
+                    "abapType": "Date",
+                    "isPrimaryKey": true,
+                    "isSelected": true,
+                    "conversionExit": "",
+                    "isClientField": false
+                },
+                {
+                    "name": "LANGU",
+                    "description": "Language Key",
+                    "abapType": "CharacterString",
+                    "length": 1,
+                    "isPrimaryKey": true,
+                    "isSelected": true,
+                    "conversionRoutineEnabled": true,
+                    "formattedLength": 2,
+                    "checkTable": "T002",
+                    "indexed": "Ascending",
+                    "conversionExit": "ISOLA",
+                    "isClientField": false
+                },
+                {
+                    "name": "SEQNR",
+                    "description": "Number of Infotype Record with Same Key",
+                    "abapType": "NumericCharacterString",
+                    "length": 3,
+                    "isPrimaryKey": true,
+                    "isSelected": true,
+                    "conversionExit": "",
+                    "isClientField": false
+                },
+                {
+                    "name": "OTJID",
+                    "description": "Concatenation of Object Type and Object ID",
+                    "abapType": "CharacterString",
+                    "length": 10,
+                    "isSelected": true,
+                    "indexed": "Ascending",
+                    "conversionExit": "",
+                    "isClientField": false
+                },
+                {
+                    "name": "INFTY",
+                    "description": "Infotype",
+                    "abapType": "CharacterString",
+                    "length": 4,
+                    "isSelected": true,
+                    "checkTable": "T778T",
+                    "conversionExit": "",
+                    "isClientField": false
+                },
+                {
+                    "name": "AEDTM",
+                    "description": "Changed on",
+                    "abapType": "Date",
+                    "isSelected": true,
+                    "conversionExit": "",
+                    "isClientField": false
+                },
+                {
+                    "name": "UNAME",
+                    "description": "User Name",
+                    "abapType": "CharacterString",
+                    "length": 12,
+                    "isSelected": true,
+                    "conversionExit": "",
+                    "isClientField": false
+                },
+                {
+                    "name": "REASN",
+                    "description": "Reason",
+                    "abapType": "CharacterString",
+                    "length": 2,
+                    "isSelected": true,
+                    "conversionExit": "",
+                    "isClientField": false
+                },
+                {
+                    "name": "HISTO",
+                    "description": "Historical Record Flag",
+                    "abapType": "CharacterString",
+                    "length": 1,
+                    "isSelected": true,
+                    "conversionExit": "",
+                    "isClientField": false
+                },
+                {
+                    "name": "ITXNR",
+                    "description": "Text Module for Infotype",
+                    "abapType": "NumericCharacterString",
+                    "length": 8,
+                    "isSelected": true,
+                    "conversionExit": "",
+                    "isClientField": false
+                },
+                {
+                    "name": "SHORT",
+                    "description": "Object Abbreviation",
+                    "abapType": "CharacterString",
+                    "length": 12,
+                    "isSelected": true,
+                    "conversionExit": "",
+                    "isClientField": false
+                },
+                {
+                    "name": "STEXT",
+                    "description": "Object Name",
+                    "abapType": "CharacterString",
+                    "length": 40,
+                    "isSelected": true,
+                    "conversionExit": "",
+                    "isClientField": false
+                },
+                {
+                    "name": "GDATE",
+                    "description": "Delimitation date",
+                    "abapType": "Date",
+                    "isSelected": true,
+                    "conversionExit": "",
+                    "isClientField": false
+                },
+                {
+                    "name": "MC_SHORT",
+                    "description": "Object Abbreviation",
+                    "abapType": "CharacterString",
+                    "length": 12,
+                    "isSelected": true,
+                    "indexed": "Ascending",
+                    "conversionExit": "",
+                    "isClientField": false
+                },
+                {
+                    "name": "MC_STEXT",
+                    "description": "Name",
+                    "abapType": "CharacterString",
+                    "length": 40,
+                    "isSelected": true,
+                    "indexed": "Ascending",
+                    "conversionExit": "",
+                    "isClientField": false
+                },
+                {
+                    "name": "MC_SEARK",
+                    "description": "Search Term",
+                    "abapType": "CharacterString",
+                    "length": 52,
+                    "isSelected": true,
+                    "indexed": "Ascending",
+                    "conversionExit": "",
+                    "isClientField": false
+                }
+            ]
+        }
+    ],
+    "complexRuntimeParameters": {
+    },
+    "whereSequence": [
+    ]
+}

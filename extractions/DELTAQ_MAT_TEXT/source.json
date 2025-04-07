@@ -1,0 +1,73 @@
+{
+    "technicalName": "0MATERIAL_TEXT",
+    "transferStructure": "BIW_MAKT_S",
+    "sourceSystem": "ECW_00_800",
+    "iDocType": "ZX12IDOC",
+    "prefix": "XX",
+    "updateMode": "Full",
+    "gatewayHost": "EC5.theobald-software.com",
+    "gatewayService": "sapgw00",
+    "programId": "XTRACT12",
+    "targetSystem": "XTRACT12",
+    "activationTimestamp": "2025-03-31",
+    "sourceTimestamp": "2016-10-11",
+    "oltpSourceType": "Text",
+    "isCollectAllDataReady": false,
+    "adjustsCurrencyDecimals": false,
+    "deltaQSettings": {
+        "transferMethod": "TRfc",
+        "isAutoSyncEnabled": true,
+        "isSerializationInfoOnTable": false,
+        "isAcceptGapsInDataPackageIdEnabled": false,
+        "timeout": 60,
+        "hierarchyLanguage": "E",
+        "hierarchyName": "",
+        "hierarchyClass": "",
+        "hierarchyVersion": "",
+        "hierarchyRepresentation": "ParentChild",
+        "hierarchyNaturalSettings": {
+        },
+        "addRequestIdColumn": true
+    },
+    "fields": 
+    [
+        {
+            "name": "MATNR",
+            "description": "Material Number",
+            "abapType": "CharacterString",
+            "length": 18,
+            "isSelected": true,
+            "selectionType": "X",
+            "position": 0,
+            "dataElement": "MATNR",
+            "internalType": "CHAR",
+            "internalLength": 36
+        },
+        {
+            "name": "SPRAS",
+            "description": "Language Key",
+            "abapType": "CharacterString",
+            "length": 1,
+            "isSelected": true,
+            "selectionType": "X",
+            "position": 1,
+            "dataElement": "SPRAS",
+            "internalType": "LANG",
+            "internalLength": 2
+        },
+        {
+            "name": "TXTMD",
+            "description": "Material Description (Short Text)",
+            "abapType": "CharacterString",
+            "length": 40,
+            "isSelected": true,
+            "selectionType": "",
+            "position": 2,
+            "dataElement": "MAKTX",
+            "internalType": "CHAR",
+            "internalLength": 80
+        }
+    ],
+    "complexRuntimeParameters": {
+    }
+}

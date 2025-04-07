@@ -1,0 +1,15 @@
+{
+    "isSurrogateKeyEnabled": false,
+    "columns": 
+    [
+        "HRP1000~MANDT",
+        "HRP1000~PLVAR",
+        "HRP1000~OTYPE",
+        "HRP1000~OBJID",
+        "HRP1000~ISTAT",
+        "HRP1000~BEGDA",
+        "HRP1000~ENDDA",
+        "HRP1000~LANGU",
+        "HRP1000~SEQNR"
+    ]
+}

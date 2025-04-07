@@ -1,0 +1,15 @@
+{
+    "created": {
+        "machine": "DESMOND",
+        "timestamp": "20250404T122414.216Z",
+        "user": "THEOBALD\\malapati"
+    },
+    "destination": "http-csv",
+    "lastChange": {
+        "machine": "DESMOND",
+        "timestamp": "20250404T122520.366Z",
+        "user": "THEOBALD\\malapati"
+    },
+    "source": "S4H",
+    "type": "Table"
+}

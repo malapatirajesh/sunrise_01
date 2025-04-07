@@ -1,0 +1,22 @@
+{
+    "isEnabled": false,
+    "columnOrders": 
+    [
+        {
+            "resultColumnName": "0MATERIAL_TEXT~RequestID",
+            "displayIndex": 0
+        },
+        {
+            "resultColumnName": "0MATERIAL_TEXT~MATNR",
+            "displayIndex": 1
+        },
+        {
+            "resultColumnName": "0MATERIAL_TEXT~SPRAS",
+            "displayIndex": 2
+        },
+        {
+            "resultColumnName": "0MATERIAL_TEXT~TXTMD",
+            "displayIndex": 3
+        }
+    ]
+}

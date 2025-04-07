@@ -1,0 +1,542 @@
+{
+    "isEnabled": false,
+    "columnOrders": 
+    [
+        {
+            "resultColumnName": "2LIS_11_VAITM~RequestID",
+            "displayIndex": 0
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~ROCANCEL",
+            "displayIndex": 1
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~VBELN",
+            "displayIndex": 2
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~ABSTA",
+            "displayIndex": 3
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~POSNR",
+            "displayIndex": 4
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~RFGSA",
+            "displayIndex": 5
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~RFSTA",
+            "displayIndex": 6
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~UVALL",
+            "displayIndex": 7
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~UVFAK",
+            "displayIndex": 8
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~UVPRS",
+            "displayIndex": 9
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~UVVLK",
+            "displayIndex": 10
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~ANGDT",
+            "displayIndex": 11
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~AUART",
+            "displayIndex": 12
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~AUGRU",
+            "displayIndex": 13
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~BNDDT",
+            "displayIndex": 14
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~BUKRS",
+            "displayIndex": 15
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~FAKSK",
+            "displayIndex": 16
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~HWAER",
+            "displayIndex": 17
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~KUNNR",
+            "displayIndex": 18
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~KURST",
+            "displayIndex": 19
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~KVGR1",
+            "displayIndex": 20
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~KVGR2",
+            "displayIndex": 21
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~KVGR3",
+            "displayIndex": 22
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~KVGR4",
+            "displayIndex": 23
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~KVGR5",
+            "displayIndex": 24
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~LIFSK",
+            "displayIndex": 25
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~STWAE",
+            "displayIndex": 26
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~VBTYP",
+            "displayIndex": 27
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~VKBUR",
+            "displayIndex": 28
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~VKGRP",
+            "displayIndex": 29
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~VKORG",
+            "displayIndex": 30
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~VTWEG",
+            "displayIndex": 31
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~ABGRU",
+            "displayIndex": 32
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~AEDAT",
+            "displayIndex": 33
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~AWAHR",
+            "displayIndex": 34
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~BRGEW",
+            "displayIndex": 35
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~BWAPPLNM",
+            "displayIndex": 36
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~BWVORG",
+            "displayIndex": 37
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~CHARG",
+            "displayIndex": 38
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~CMKUA",
+            "displayIndex": 39
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~EAN11",
+            "displayIndex": 40
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~ERDAT",
+            "displayIndex": 41
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~ERNAM",
+            "displayIndex": 42
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~ERZET",
+            "displayIndex": 43
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~FAKSP",
+            "displayIndex": 44
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~GEWEI",
+            "displayIndex": 45
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~KBMENG",
+            "displayIndex": 46
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~KLMENG",
+            "displayIndex": 47
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~KMEIN",
+            "displayIndex": 48
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~KNUMA_AG",
+            "displayIndex": 49
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~KPEIN",
+            "displayIndex": 50
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~KWMENG",
+            "displayIndex": 51
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~KZWI1",
+            "displayIndex": 52
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~KZWI2",
+            "displayIndex": 53
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~KZWI3",
+            "displayIndex": 54
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~KZWI4",
+            "displayIndex": 55
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~KZWI5",
+            "displayIndex": 56
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~KZWI6",
+            "displayIndex": 57
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~LFMNG",
+            "displayIndex": 58
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~LGORT",
+            "displayIndex": 59
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~LSMENG",
+            "displayIndex": 60
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~MATKL",
+            "displayIndex": 61
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~MATNR",
+            "displayIndex": 62
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~MATWA",
+            "displayIndex": 63
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~MEINS",
+            "displayIndex": 64
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~MVGR1",
+            "displayIndex": 65
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~MVGR2",
+            "displayIndex": 66
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~MVGR3",
+            "displayIndex": 67
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~MVGR4",
+            "displayIndex": 68
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~MVGR5",
+            "displayIndex": 69
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~MWSBP",
+            "displayIndex": 70
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~NETPR",
+            "displayIndex": 71
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~NETWR",
+            "displayIndex": 72
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~NTGEW",
+            "displayIndex": 73
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~PABLA",
+            "displayIndex": 74
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~PKUNRE",
+            "displayIndex": 75
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~PKUNRG",
+            "displayIndex": 76
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~PKUNWE",
+            "displayIndex": 77
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~PRODH",
+            "displayIndex": 78
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~PSPDNR",
+            "displayIndex": 79
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~PSTYV",
+            "displayIndex": 80
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~PVRTNR",
+            "displayIndex": 81
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~PZPERS",
+            "displayIndex": 82
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~ROOT_DATE",
+            "displayIndex": 83
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~ROOT_HEAD",
+            "displayIndex": 84
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~ROOT_ITEM",
+            "displayIndex": 85
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~ROUTE",
+            "displayIndex": 86
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~SOBKZ",
+            "displayIndex": 87
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~SPART",
+            "displayIndex": 88
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~STADAT",
+            "displayIndex": 89
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~STCUR",
+            "displayIndex": 90
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~SUGRD",
+            "displayIndex": 91
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~UEBTK",
+            "displayIndex": 92
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~UEBTO",
+            "displayIndex": 93
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~UMVKN",
+            "displayIndex": 94
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~UMVKZ",
+            "displayIndex": 95
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~UMZIN",
+            "displayIndex": 96
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~UMZIZ",
+            "displayIndex": 97
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~UNTTO",
+            "displayIndex": 98
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~VDATU",
+            "displayIndex": 99
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~VGBEL",
+            "displayIndex": 100
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~VGPOS",
+            "displayIndex": 101
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~VGTYP",
+            "displayIndex": 102
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~VOLEH",
+            "displayIndex": 103
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~VOLUM",
+            "displayIndex": 104
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~VRKME",
+            "displayIndex": 105
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~VSTEL",
+            "displayIndex": 106
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~WAERK",
+            "displayIndex": 107
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~WAVWR",
+            "displayIndex": 108
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~WERKS",
+            "displayIndex": 109
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~ZIEME",
+            "displayIndex": 110
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~ZMENG",
+            "displayIndex": 111
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~ZWERT",
+            "displayIndex": 112
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~BZIRK",
+            "displayIndex": 113
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~FBUDA",
+            "displayIndex": 114
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~FKDAT",
+            "displayIndex": 115
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~INCO1",
+            "displayIndex": 116
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~INCO2",
+            "displayIndex": 117
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~KDGRP",
+            "displayIndex": 118
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~KTGRD",
+            "displayIndex": 119
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~KURSK",
+            "displayIndex": 120
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~KURSK_DAT",
+            "displayIndex": 121
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~PRSDT",
+            "displayIndex": 122
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~WAKTION",
+            "displayIndex": 123
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~WMINR",
+            "displayIndex": 124
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~WAERK_VBAK",
+            "displayIndex": 125
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~SPARA",
+            "displayIndex": 126
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~VGTYP_AK",
+            "displayIndex": 127
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~PS_POSID",
+            "displayIndex": 128
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~ANZAUPO",
+            "displayIndex": 129
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~PERIV",
+            "displayIndex": 130
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~MCEX_APCAMPAIGN",
+            "displayIndex": 131
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~APOPLANNED",
+            "displayIndex": 132
+        },
+        {
+            "resultColumnName": "2LIS_11_VAITM~MCBW_NETPR_AVKM",
+            "displayIndex": 133
+        }
+    ]
+}

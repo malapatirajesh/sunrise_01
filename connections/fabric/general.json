@@ -1,0 +1,13 @@
+{
+    "created": {
+        "machine": "BUD",
+        "timestamp": "20250123T174051.662Z",
+        "user": "THEOBALD\\gorapalli"
+    },
+    "lastChange": {
+        "machine": "DESMOND",
+        "timestamp": "20250331T114953.809Z",
+        "user": "THEOBALD\\malapati"
+    },
+    "connectionType": "MicrosoftFabricOneLake"
+}

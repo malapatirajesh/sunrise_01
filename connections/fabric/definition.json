@@ -1,0 +1,11 @@
+{
+    "folder": "",
+    "parquet_destination_definition": {
+    },
+    "auth_info": {
+        "tenant_id": "3c969cc1-5cc1-4fb2-82ec-9bd93f1fbba4",
+        "client_id": "2120fca9-0d27-44b5-aebf-4c02621fa5c5",
+        "refresh_token": "sO09DazK6ixfWAXrSfbihzwhAz5jICYYFK0tYQ/h0gfnyZFf+ZF5vTzPJPrcrZZSd8c7a4pXYf4EqoSGQRqVdbVS/WJvDiWDu5ZWQKaCFARY2DBYzI54QyjlrAwkC/2+wEEM9bRRHbWBTf4eFkK5xgwCmVZSiWO7Pjjz3i+JMeEXWxaX2XZPpQE/Tsfaybfp3p23t3FbcIakkuqOQmibkCPPwGvRSG+zVz0iNQp8iRsnV3S5OgEQ2QDYjAm96tZCadZ6rbhd35zG2nFKGdiWvzm1Peibw3guQmzX7hCSMWkNpiPbFz2gln73zUS9KslzAFPGcJTvEhqPGYX3UqMtQW2hrSztG5f1t1QFTI6snhyDZyOq/Nz+1SrsSBagGzlfV+mJxW8b8u+C5MSxePOVNYwgZR0nKVM5mqJ7NKZ2JCBcpzELkiZR/MRbCJo6TfacJT7aHj0lmQVEX8a0crws+aBQ4Cy3gOpNE73hjUXH7xD+V9X0Rzllop/Ch4HHXSJh6DVCgfLotJN1K0bm17+c7jkeVzPzdemxSv4s0qniZyPuUM+Tbjh4IM4TBITep2/QQYN2HYU+EIXJGWQuFXNzofnmQDN5RR9tiIhUGN6uAkXfi4JYQtLczsHtZ9qqYV3Vi3z/VFhfL4FGUf56UPqITMI8sBFO/0u1dKvPvXFeTfEI8KR72t5Qt1fEj7Al5l5fQXnbx99oX15CObkQTTcSEqXI87wnd6PhK1sU6VRGqewhe3Z66CcypjW+CJ9Z/LKVAZvOQmXnk7WKuS7wAVF41/2XEt3uo2snn9/EcngD16jqJK/j0YH6hjbXc9F4HfufmGlBSTxtW6TB3+OvsbWekE4zsYuTtZZ9YmtuxKPLDOXCFstMEVKVvgDZFDX9byhAstBGG4V5zTnuF8k1viQKJnkFgpcWOMwGaD7mbtciPylwreViBnqPD8dMcCpHO8Sh7T2501n5BTq31BGzTao9wfD6RXuCe42kfGlWYV1Pf7YaUM1fWBM7vl01gai3mJ8qEeHUmWxkIUWT//Ms/SK/9IL/eLFjljxuI+eTpryYFsGTFuGrgDQV1Q7rQZPR5IIJREzcepsLqm8r9T/gU1/6wPJKrcobw0W7dyTjvmw8QIVxYH3eEaMEYC7uAtO+kISZthRgX4A6+R525EaOlViQ5OtzRHpQq3vjW7tHi6C/MXnMqEpY3CTCxEgXrlhIuGF4s5mMYsddTHPwGXEIZIq1JH/pEndxWmfk9gUbx9jAYPhxoy3mMNucDJteqeLK1BrX"
+    },
+    "url": "https://onelake.dfs.fabric.microsoft.com/gbk_test/gbk_lakehouse.Lakehouse/Files"
+}

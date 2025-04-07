@@ -1,0 +1,9 @@
+{
+    "host": "ec5.theobald-software.com",
+    "client": "800",
+    "language": "en",
+    "userName": "malapati",
+    "enrollOnBehalfOf": {
+    },
+    "protocol": "RFC"
+}
